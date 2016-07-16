@@ -1,0 +1,23 @@
+{
+  "name": "bestpokemontofight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoukekestar/Best-Pokemon-to-Fight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoukekestar/Best-Pokemon-to-Fight/issues"
+  },
+  "homepage": "https://github.com/zhoukekestar/Best-Pokemon-to-Fight#readme",
+  "dependencies": {
+    "csv-parser": "^1.9.3",
+    "json-beautify": "^1.0.1"
+  }
+}
