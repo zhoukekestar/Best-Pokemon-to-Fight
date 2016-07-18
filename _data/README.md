@@ -6,3 +6,4 @@
 * pokeapi/types.json (https://github.com/zhoukekestar/pokeapi/blob/master/pokemon/fixtures/types.json)
 * pokemon-type-chart/types.json (https://github.com/filipekiss/pokemon-type-chart/blob/master/types.json)
 * pokedex/*.txt (https://github.com/nolanlawson/pokedex.org/tree/master/src/assets/*.txt)
+* klinklang/*.cvs (https://github.com/mudkipme/klinklang/database/texts/*.cvs)
