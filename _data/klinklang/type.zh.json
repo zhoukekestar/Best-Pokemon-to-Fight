@@ -1,0 +1,20 @@
+{
+  "normal": "普",
+  "fighting": "格",
+  "flying": "飞",
+  "poison": "毒",
+  "ground": "地",
+  "rock": "岩",
+  "bug": "虫",
+  "ghost": "幽",
+  "steel": "钢",
+  "fire": "炎",
+  "water": "水",
+  "grass": "草",
+  "electric": "电",
+  "psychic": "超",
+  "ice": "冰",
+  "dragon": "龙",
+  "dark": "恶",
+  "fairy": "妖"
+}
