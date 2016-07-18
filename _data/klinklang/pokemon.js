@@ -2,16 +2,14 @@ var csv = require('csv-parser')
 var fs = require('fs')
 
 var data = {};
-fs.createReadStream('pokemon2.csv')
+fs.createReadStream('pokemon.csv')
   .pipe(csv())
   .on('data', function(d) {
 
-    console.log(d)
+    data[d['en'].toLowerCase()] = d['zh']
   })
   .on('end', function() {
 
-    // for (var i = 1; i < 10; i++) {
-    //   fs.writeFileSync('pokemon.json', JSON.stringify(data, null, 2))
-    // }
+    fs.writeFileSync('pokemon.zh.json', JSON.stringify(data, null, 2))
 
   })

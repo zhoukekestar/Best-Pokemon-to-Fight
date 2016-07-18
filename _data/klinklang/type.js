@@ -1,14 +1,13 @@
 var csv = require('csv-parser')
 var fs = require('fs')
 
-var data = {
-  "normal": "普"
-};
+var data = {};
 fs.createReadStream('type.csv')
   .pipe(csv())
   .on('data', function(d) {
 
-    data[d["Normal"].toLowerCase()] = d["一般"].substring(0, 1);
+    data[d["en"].toLowerCase()] = d["zh"].substring(0, 1);
+
   })
   .on('end', function() {
 
