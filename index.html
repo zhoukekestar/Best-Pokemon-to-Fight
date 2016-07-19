@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Best Pokemon to Fight</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div id='loader' class='loader' data-count='4' style='display: none;'>
+    <ul>
+      <li data-src='/mypokemon.json' class='mypokemon' data-mount='mypokemon'></li>
+      <li data-src='/data/types.zh.json' class='typesZh' data-mount='typesZh'></li>
+      <li data-src='/data/types_chart.json' class='typesChart' data-mount='typesChart' ></li>
+      <li data-src='/data/output.json' class='pokemon' data-mount='pokemon' ></li>
+    </ul>
+  </div>
+  <div id='content'>
+    <ul class='my-list'></ul>
+    <div class='form-group'>
+      <input type="" name="">
+      <button>确定</button>
+    </div>
+  </div>
+
+  <script>
+
+    var type2type = function(t1, t2, chart, zh) {
+      for (var i = 0, len = chart.length; i < len; i++) {
+        if (chart[i].name === t1) {
+          var effect = chart[i];
+          if (effect.immunes.indexOf(t2) !== -1)
+            return 0;
+          if (effect.weaknesses.indexOf(t2) !== -1)
+            return 0.5;
+          if (effect.strengths.indexOf(t2) !== -1)
+            return 2;
+          return 1;
+        }
+      }
+      return 1;
+    }
+
+    var bestPokemonToFight = function(pokemons, mypokemon, opponent, typesChart, typesZh, lan) {
+
+      var opponent = pokemons[(+opponent) - 1];
+      if (lan === 'zh') {
+        console.log('对手属性：' + opponent.typesZh.join(','));
+      } else {
+        console.log('opponent types:' + opponent.types.join(','))
+      }
+
+      for (var i = 0; i < mypokemon.length; i++) {
+        var currentPokemon = pokemons[(+mypokemon[i]) - 1];
+        var val = 1;
+
+        if (lan === 'zh') {
+          console.log(currentPokemon.nameZh + ' 对阵 ' + opponent.nameZh);
+        } else {
+          console.log(currentPokemon.name + ' vs ' + opponent.name);
+        }
+
+
+        var result = 1
+          , exp = '1 * '
+          , reason = ''
+        for (var j = 0; j < opponent.types.length; j++) {
+          for (var k = 0; k < currentPokemon.types.length; k++) {
+            var t = type2type(opponent.types[j], opponent.types[k], typesChart)
+
+            result *= t;
+            exp += ' * ' + t
+
+            if (lan === 'zh') {
+              reason = typesZh[opponent.types[j]] + ' 2 ' + typesZh[opponent.types[k]] + ' ' + t
+            } else {
+              reason =  opponent.types[j] + ' to ' + opponent.types[k] + ' ' + t
+            }
+          }
+        }
+
+        console.log('exp:' + exp + ' result:' + result)
+        console.log(reason)
+        console.log('\n')
+      }
+    }
+
+  loader.onended = function() {
+
+    // console.log(loader.mypokemon)
+    // console.log(loader.typesZh)
+    // console.log(loader.typesChart)
+    // console.log(loader.pokemon)
+
+    document.querySelector('#content button').onclick = function() {
+      var key = document.querySelector('#content input').value;
+
+      if (key)
+        bestPokemonToFight(loader.pokemon, loader.mypokemon, key, loader.typesChart, loader.typesZh, 'zh')
+    }
+  }
+
+
+  // Init: load all json.
+  !(function(){
+    var loader = document.querySelector('#loader')
+      , mypokemon = loader.querySelector('.mypokemon')
+      , typesZh = loader.querySelector('.typesZh')
+      , typesChart = loader.querySelector('.typesChart')
+      , pokemon = loader.querySelector('.pokemon');
+
+    loader.count = 0;
+    var loadIt = function(ele) {
+      if (localStorage.getItem(ele.dataset.src)) {
+        ele.json = JSON.parse(localStorage.getItem(ele.dataset.src));
+        loader.count++;
+        loader[ele.dataset.mount] = ele.json;
+        ele.classList.add('done');
+        ;(loader.count == loader.dataset.count) && loader.onended && loader.onended();
+      } else {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", ele.dataset.src, true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.onreadystatechange = function(){
+          if (xhr.readyState === 4) {
+            localStorage.setItem(ele.dataset.src, xhr.response);
+            ele.json = JSON.parse(xhr.response);
+            loader.count++;
+            loader[ele.dataset.mount] = ele.json;
+            ele.classList.add('done');
+            ;(loader.count == loader.dataset.count) && loader.onended && loader.onended();
+          }
+        }
+        xhr.send(null);
+      }
+    }
+    loadIt(mypokemon);
+    loadIt(typesZh)
+    loadIt(typesChart)
+    loadIt(pokemon)
+  })();
+
+  </script>
+</body>
+</html>
