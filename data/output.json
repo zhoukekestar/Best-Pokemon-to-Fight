@@ -5,11 +5,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "妙蛙种子",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -18,11 +13,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "妙蛙草",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -31,11 +21,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "妙蛙花",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -43,10 +28,6 @@
     "name": "charmander",
     "types": [
       "fire"
-    ],
-    "nameZh": "小火龙",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -54,10 +35,6 @@
     "name": "charmeleon",
     "types": [
       "fire"
-    ],
-    "nameZh": "火恐龙",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -66,11 +43,6 @@
     "types": [
       "fire",
       "flying"
-    ],
-    "nameZh": "喷火龙",
-    "typesZh": [
-      "炎",
-      "飞"
     ]
   },
   {
@@ -78,10 +50,6 @@
     "name": "squirtle",
     "types": [
       "water"
-    ],
-    "nameZh": "杰尼龟",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -89,10 +57,6 @@
     "name": "wartortle",
     "types": [
       "water"
-    ],
-    "nameZh": "卡咪龟",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -100,10 +64,6 @@
     "name": "blastoise",
     "types": [
       "water"
-    ],
-    "nameZh": "水箭龟",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -111,10 +71,6 @@
     "name": "caterpie",
     "types": [
       "bug"
-    ],
-    "nameZh": "绿毛虫",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -122,10 +78,6 @@
     "name": "metapod",
     "types": [
       "bug"
-    ],
-    "nameZh": "铁甲蛹",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -134,11 +86,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "巴大蝴",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -147,11 +94,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "独角虫",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -160,11 +102,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "铁壳昆",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -173,11 +110,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "大针蜂",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -186,11 +118,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "波波",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -199,11 +126,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "比比鸟",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -212,11 +134,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "比雕",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -224,10 +141,6 @@
     "name": "rattata",
     "types": [
       "normal"
-    ],
-    "nameZh": "小拉达",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -235,10 +148,6 @@
     "name": "raticate",
     "types": [
       "normal"
-    ],
-    "nameZh": "拉达",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -247,11 +156,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "烈雀",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -260,11 +164,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "大嘴雀",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -272,10 +171,6 @@
     "name": "ekans",
     "types": [
       "poison"
-    ],
-    "nameZh": "阿柏蛇",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -283,10 +178,6 @@
     "name": "arbok",
     "types": [
       "poison"
-    ],
-    "nameZh": "阿柏怪",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -294,10 +185,6 @@
     "name": "pikachu",
     "types": [
       "electric"
-    ],
-    "nameZh": "皮卡丘",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -305,10 +192,6 @@
     "name": "raichu",
     "types": [
       "electric"
-    ],
-    "nameZh": "雷丘",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -316,10 +199,6 @@
     "name": "sandshrew",
     "types": [
       "ground"
-    ],
-    "nameZh": "穿山鼠",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -327,10 +206,6 @@
     "name": "sandslash",
     "types": [
       "ground"
-    ],
-    "nameZh": "穿山王",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -338,10 +213,6 @@
     "name": "nidoran-f",
     "types": [
       "poison"
-    ],
-    "nameZh": "尼多兰",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -349,10 +220,6 @@
     "name": "nidorina",
     "types": [
       "poison"
-    ],
-    "nameZh": "尼多娜",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -361,11 +228,6 @@
     "types": [
       "poison",
       "ground"
-    ],
-    "nameZh": "尼多后",
-    "typesZh": [
-      "毒",
-      "地"
     ]
   },
   {
@@ -373,10 +235,6 @@
     "name": "nidoran-m",
     "types": [
       "poison"
-    ],
-    "nameZh": "尼多朗",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -384,10 +242,6 @@
     "name": "nidorino",
     "types": [
       "poison"
-    ],
-    "nameZh": "尼多力诺",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -396,11 +250,6 @@
     "types": [
       "poison",
       "ground"
-    ],
-    "nameZh": "尼多王",
-    "typesZh": [
-      "毒",
-      "地"
     ]
   },
   {
@@ -408,10 +257,6 @@
     "name": "clefairy",
     "types": [
       "fairy"
-    ],
-    "nameZh": "皮皮",
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -419,10 +264,6 @@
     "name": "clefable",
     "types": [
       "fairy"
-    ],
-    "nameZh": "皮可西",
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -430,10 +271,6 @@
     "name": "vulpix",
     "types": [
       "fire"
-    ],
-    "nameZh": "六尾",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -441,10 +278,6 @@
     "name": "ninetales",
     "types": [
       "fire"
-    ],
-    "nameZh": "九尾",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -453,11 +286,6 @@
     "types": [
       "normal",
       "fairy"
-    ],
-    "nameZh": "胖丁",
-    "typesZh": [
-      "普",
-      "妖"
     ]
   },
   {
@@ -466,11 +294,6 @@
     "types": [
       "normal",
       "fairy"
-    ],
-    "nameZh": "胖可丁",
-    "typesZh": [
-      "普",
-      "妖"
     ]
   },
   {
@@ -479,11 +302,6 @@
     "types": [
       "poison",
       "flying"
-    ],
-    "nameZh": "超音蝠",
-    "typesZh": [
-      "毒",
-      "飞"
     ]
   },
   {
@@ -492,11 +310,6 @@
     "types": [
       "poison",
       "flying"
-    ],
-    "nameZh": "大嘴蝠",
-    "typesZh": [
-      "毒",
-      "飞"
     ]
   },
   {
@@ -505,11 +318,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "走路草",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -518,11 +326,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "臭臭花",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -531,11 +334,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "霸王花",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -544,11 +342,6 @@
     "types": [
       "bug",
       "grass"
-    ],
-    "nameZh": "派拉斯",
-    "typesZh": [
-      "虫",
-      "草"
     ]
   },
   {
@@ -557,11 +350,6 @@
     "types": [
       "bug",
       "grass"
-    ],
-    "nameZh": "派拉斯特",
-    "typesZh": [
-      "虫",
-      "草"
     ]
   },
   {
@@ -570,11 +358,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "毛球",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -583,11 +366,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "末入蛾",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -595,10 +373,6 @@
     "name": "diglett",
     "types": [
       "ground"
-    ],
-    "nameZh": "地鼠",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -606,10 +380,6 @@
     "name": "dugtrio",
     "types": [
       "ground"
-    ],
-    "nameZh": "三地鼠",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -617,10 +387,6 @@
     "name": "meowth",
     "types": [
       "normal"
-    ],
-    "nameZh": "喵喵",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -628,10 +394,6 @@
     "name": "persian",
     "types": [
       "normal"
-    ],
-    "nameZh": "猫老大",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -639,10 +401,6 @@
     "name": "psyduck",
     "types": [
       "water"
-    ],
-    "nameZh": "可达鸭",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -650,10 +408,6 @@
     "name": "golduck",
     "types": [
       "water"
-    ],
-    "nameZh": "哥达鸭",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -661,10 +415,6 @@
     "name": "mankey",
     "types": [
       "fighting"
-    ],
-    "nameZh": "猴怪",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -672,10 +422,6 @@
     "name": "primeape",
     "types": [
       "fighting"
-    ],
-    "nameZh": "火爆猴",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -683,10 +429,6 @@
     "name": "growlithe",
     "types": [
       "fire"
-    ],
-    "nameZh": "卡蒂狗",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -694,10 +436,6 @@
     "name": "arcanine",
     "types": [
       "fire"
-    ],
-    "nameZh": "风速狗",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -705,10 +443,6 @@
     "name": "poliwag",
     "types": [
       "water"
-    ],
-    "nameZh": "蚊香蝌蚪",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -716,10 +450,6 @@
     "name": "poliwhirl",
     "types": [
       "water"
-    ],
-    "nameZh": "蚊香蛙",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -728,11 +458,6 @@
     "types": [
       "water",
       "fighting"
-    ],
-    "nameZh": "快泳蛙",
-    "typesZh": [
-      "水",
-      "斗"
     ]
   },
   {
@@ -740,10 +465,6 @@
     "name": "abra",
     "types": [
       "psychic"
-    ],
-    "nameZh": "凯西",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -751,10 +472,6 @@
     "name": "kadabra",
     "types": [
       "psychic"
-    ],
-    "nameZh": "勇吉拉",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -762,10 +479,6 @@
     "name": "alakazam",
     "types": [
       "psychic"
-    ],
-    "nameZh": "胡地",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -773,10 +486,6 @@
     "name": "machop",
     "types": [
       "fighting"
-    ],
-    "nameZh": "腕力",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -784,10 +493,6 @@
     "name": "machoke",
     "types": [
       "fighting"
-    ],
-    "nameZh": "豪力",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -795,10 +500,6 @@
     "name": "machamp",
     "types": [
       "fighting"
-    ],
-    "nameZh": "怪力",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -807,11 +508,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "喇叭芽",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -820,11 +516,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "口呆花",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -833,11 +524,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "大食花",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -846,11 +532,6 @@
     "types": [
       "water",
       "poison"
-    ],
-    "nameZh": "玛瑙水母",
-    "typesZh": [
-      "水",
-      "毒"
     ]
   },
   {
@@ -859,11 +540,6 @@
     "types": [
       "water",
       "poison"
-    ],
-    "nameZh": "毒刺水母",
-    "typesZh": [
-      "水",
-      "毒"
     ]
   },
   {
@@ -872,11 +548,6 @@
     "types": [
       "rock",
       "ground"
-    ],
-    "nameZh": "小拳石",
-    "typesZh": [
-      "岩",
-      "地"
     ]
   },
   {
@@ -885,11 +556,6 @@
     "types": [
       "rock",
       "ground"
-    ],
-    "nameZh": "隆隆石",
-    "typesZh": [
-      "岩",
-      "地"
     ]
   },
   {
@@ -898,11 +564,6 @@
     "types": [
       "rock",
       "ground"
-    ],
-    "nameZh": "隆隆岩",
-    "typesZh": [
-      "岩",
-      "地"
     ]
   },
   {
@@ -910,10 +571,6 @@
     "name": "ponyta",
     "types": [
       "fire"
-    ],
-    "nameZh": "小火马",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -921,10 +578,6 @@
     "name": "rapidash",
     "types": [
       "fire"
-    ],
-    "nameZh": "烈焰马",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -933,11 +586,6 @@
     "types": [
       "water",
       "psychic"
-    ],
-    "nameZh": "呆呆兽",
-    "typesZh": [
-      "水",
-      "超"
     ]
   },
   {
@@ -946,11 +594,6 @@
     "types": [
       "water",
       "psychic"
-    ],
-    "nameZh": "呆河马",
-    "typesZh": [
-      "水",
-      "超"
     ]
   },
   {
@@ -959,11 +602,6 @@
     "types": [
       "electric",
       "steel"
-    ],
-    "nameZh": "小磁怪",
-    "typesZh": [
-      "电",
-      "钢"
     ]
   },
   {
@@ -972,11 +610,6 @@
     "types": [
       "electric",
       "steel"
-    ],
-    "nameZh": "三合一磁怪",
-    "typesZh": [
-      "电",
-      "钢"
     ]
   },
   {
@@ -985,11 +618,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "大葱鸭",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -998,11 +626,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "嘟嘟",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -1011,11 +634,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "嘟嘟利",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -1023,10 +641,6 @@
     "name": "seel",
     "types": [
       "water"
-    ],
-    "nameZh": "小海狮",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1035,11 +649,6 @@
     "types": [
       "water",
       "ice"
-    ],
-    "nameZh": "白海狮",
-    "typesZh": [
-      "水",
-      "冰"
     ]
   },
   {
@@ -1047,10 +656,6 @@
     "name": "grimer",
     "types": [
       "poison"
-    ],
-    "nameZh": "臭泥",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -1058,10 +663,6 @@
     "name": "muk",
     "types": [
       "poison"
-    ],
-    "nameZh": "臭臭泥",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -1069,10 +670,6 @@
     "name": "shellder",
     "types": [
       "water"
-    ],
-    "nameZh": "大舌贝",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1081,11 +678,6 @@
     "types": [
       "water",
       "ice"
-    ],
-    "nameZh": "铁甲贝",
-    "typesZh": [
-      "水",
-      "冰"
     ]
   },
   {
@@ -1094,11 +686,6 @@
     "types": [
       "ghost",
       "poison"
-    ],
-    "nameZh": "鬼斯",
-    "typesZh": [
-      "鬼",
-      "毒"
     ]
   },
   {
@@ -1107,11 +694,6 @@
     "types": [
       "ghost",
       "poison"
-    ],
-    "nameZh": "鬼斯通",
-    "typesZh": [
-      "鬼",
-      "毒"
     ]
   },
   {
@@ -1120,11 +702,6 @@
     "types": [
       "ghost",
       "poison"
-    ],
-    "nameZh": "耿鬼",
-    "typesZh": [
-      "鬼",
-      "毒"
     ]
   },
   {
@@ -1133,11 +710,6 @@
     "types": [
       "rock",
       "ground"
-    ],
-    "nameZh": "大岩蛇",
-    "typesZh": [
-      "岩",
-      "地"
     ]
   },
   {
@@ -1145,10 +717,6 @@
     "name": "drowzee",
     "types": [
       "psychic"
-    ],
-    "nameZh": "素利普",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -1156,10 +724,6 @@
     "name": "hypno",
     "types": [
       "psychic"
-    ],
-    "nameZh": "素利拍",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -1167,10 +731,6 @@
     "name": "krabby",
     "types": [
       "water"
-    ],
-    "nameZh": "大钳蟹",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1178,10 +738,6 @@
     "name": "kingler",
     "types": [
       "water"
-    ],
-    "nameZh": "巨钳蟹",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1189,10 +745,6 @@
     "name": "voltorb",
     "types": [
       "electric"
-    ],
-    "nameZh": "雷电球",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -1200,10 +752,6 @@
     "name": "electrode",
     "types": [
       "electric"
-    ],
-    "nameZh": "顽皮弹",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -1212,11 +760,6 @@
     "types": [
       "grass",
       "psychic"
-    ],
-    "nameZh": "蛋蛋",
-    "typesZh": [
-      "草",
-      "超"
     ]
   },
   {
@@ -1225,11 +768,6 @@
     "types": [
       "grass",
       "psychic"
-    ],
-    "nameZh": "椰蛋树",
-    "typesZh": [
-      "草",
-      "超"
     ]
   },
   {
@@ -1237,10 +775,6 @@
     "name": "cubone",
     "types": [
       "ground"
-    ],
-    "nameZh": "可拉可拉",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -1248,10 +782,6 @@
     "name": "marowak",
     "types": [
       "ground"
-    ],
-    "nameZh": "嘎拉嘎拉",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -1259,10 +789,6 @@
     "name": "hitmonlee",
     "types": [
       "fighting"
-    ],
-    "nameZh": "沙瓦郎",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -1270,10 +796,6 @@
     "name": "hitmonchan",
     "types": [
       "fighting"
-    ],
-    "nameZh": "艾比郎",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -1281,10 +803,6 @@
     "name": "lickitung",
     "types": [
       "normal"
-    ],
-    "nameZh": "大舌头",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1292,10 +810,6 @@
     "name": "koffing",
     "types": [
       "poison"
-    ],
-    "nameZh": "瓦斯弹",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -1303,10 +817,6 @@
     "name": "weezing",
     "types": [
       "poison"
-    ],
-    "nameZh": "双弹瓦斯",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -1315,11 +825,6 @@
     "types": [
       "ground",
       "rock"
-    ],
-    "nameZh": "铁甲犀牛",
-    "typesZh": [
-      "地",
-      "岩"
     ]
   },
   {
@@ -1328,11 +833,6 @@
     "types": [
       "ground",
       "rock"
-    ],
-    "nameZh": "铁甲暴龙",
-    "typesZh": [
-      "地",
-      "岩"
     ]
   },
   {
@@ -1340,10 +840,6 @@
     "name": "chansey",
     "types": [
       "normal"
-    ],
-    "nameZh": "吉利蛋",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1351,10 +847,6 @@
     "name": "tangela",
     "types": [
       "grass"
-    ],
-    "nameZh": "蔓藤怪",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -1362,10 +854,6 @@
     "name": "kangaskhan",
     "types": [
       "normal"
-    ],
-    "nameZh": "袋龙",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1373,10 +861,6 @@
     "name": "horsea",
     "types": [
       "water"
-    ],
-    "nameZh": "墨海马",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1384,10 +868,6 @@
     "name": "seadra",
     "types": [
       "water"
-    ],
-    "nameZh": "海刺龙",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1395,10 +875,6 @@
     "name": "goldeen",
     "types": [
       "water"
-    ],
-    "nameZh": "角金鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1406,10 +882,6 @@
     "name": "seaking",
     "types": [
       "water"
-    ],
-    "nameZh": "金鱼王",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1417,10 +889,6 @@
     "name": "staryu",
     "types": [
       "water"
-    ],
-    "nameZh": "海星星",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1429,11 +897,6 @@
     "types": [
       "water",
       "psychic"
-    ],
-    "nameZh": "宝石海星",
-    "typesZh": [
-      "水",
-      "超"
     ]
   },
   {
@@ -1442,11 +905,6 @@
     "types": [
       "psychic",
       "fairy"
-    ],
-    "nameZh": "吸盘魔偶",
-    "typesZh": [
-      "超",
-      "妖"
     ]
   },
   {
@@ -1455,11 +913,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "飞天螳螂",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -1468,11 +921,6 @@
     "types": [
       "ice",
       "psychic"
-    ],
-    "nameZh": "迷唇姐",
-    "typesZh": [
-      "冰",
-      "超"
     ]
   },
   {
@@ -1480,10 +928,6 @@
     "name": "electabuzz",
     "types": [
       "electric"
-    ],
-    "nameZh": "电击兽",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -1491,10 +935,6 @@
     "name": "magmar",
     "types": [
       "fire"
-    ],
-    "nameZh": "鸭嘴火龙",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -1502,10 +942,6 @@
     "name": "pinsir",
     "types": [
       "bug"
-    ],
-    "nameZh": "大甲",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -1513,10 +949,6 @@
     "name": "tauros",
     "types": [
       "normal"
-    ],
-    "nameZh": "肯泰罗",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1524,10 +956,6 @@
     "name": "magikarp",
     "types": [
       "water"
-    ],
-    "nameZh": "鲤鱼王",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1536,11 +964,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "暴鲤龙",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -1549,11 +972,6 @@
     "types": [
       "water",
       "ice"
-    ],
-    "nameZh": "乘龙",
-    "typesZh": [
-      "水",
-      "冰"
     ]
   },
   {
@@ -1561,10 +979,6 @@
     "name": "ditto",
     "types": [
       "normal"
-    ],
-    "nameZh": "百变怪",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1572,10 +986,6 @@
     "name": "eevee",
     "types": [
       "normal"
-    ],
-    "nameZh": "伊布",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1583,10 +993,6 @@
     "name": "vaporeon",
     "types": [
       "water"
-    ],
-    "nameZh": "水精灵",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1594,10 +1000,6 @@
     "name": "jolteon",
     "types": [
       "electric"
-    ],
-    "nameZh": "雷精灵",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -1605,10 +1007,6 @@
     "name": "flareon",
     "types": [
       "fire"
-    ],
-    "nameZh": "火精灵",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -1616,10 +1014,6 @@
     "name": "porygon",
     "types": [
       "normal"
-    ],
-    "nameZh": "3D龙",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1628,11 +1022,6 @@
     "types": [
       "rock",
       "water"
-    ],
-    "nameZh": "菊石兽",
-    "typesZh": [
-      "岩",
-      "水"
     ]
   },
   {
@@ -1641,11 +1030,6 @@
     "types": [
       "rock",
       "water"
-    ],
-    "nameZh": "多刺菊石兽",
-    "typesZh": [
-      "岩",
-      "水"
     ]
   },
   {
@@ -1654,11 +1038,6 @@
     "types": [
       "rock",
       "water"
-    ],
-    "nameZh": "化石盔",
-    "typesZh": [
-      "岩",
-      "水"
     ]
   },
   {
@@ -1667,11 +1046,6 @@
     "types": [
       "rock",
       "water"
-    ],
-    "nameZh": "镰刀盔",
-    "typesZh": [
-      "岩",
-      "水"
     ]
   },
   {
@@ -1680,11 +1054,6 @@
     "types": [
       "rock",
       "flying"
-    ],
-    "nameZh": "化石翼龙",
-    "typesZh": [
-      "岩",
-      "飞"
     ]
   },
   {
@@ -1692,10 +1061,6 @@
     "name": "snorlax",
     "types": [
       "normal"
-    ],
-    "nameZh": "卡比兽",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1704,11 +1069,6 @@
     "types": [
       "ice",
       "flying"
-    ],
-    "nameZh": "急冻鸟",
-    "typesZh": [
-      "冰",
-      "飞"
     ]
   },
   {
@@ -1717,11 +1077,6 @@
     "types": [
       "electric",
       "flying"
-    ],
-    "nameZh": "闪电鸟",
-    "typesZh": [
-      "电",
-      "飞"
     ]
   },
   {
@@ -1730,11 +1085,6 @@
     "types": [
       "fire",
       "flying"
-    ],
-    "nameZh": "火焰鸟",
-    "typesZh": [
-      "炎",
-      "飞"
     ]
   },
   {
@@ -1742,10 +1092,6 @@
     "name": "dratini",
     "types": [
       "dragon"
-    ],
-    "nameZh": "迷你龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -1753,10 +1099,6 @@
     "name": "dragonair",
     "types": [
       "dragon"
-    ],
-    "nameZh": "哈克龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -1765,11 +1107,6 @@
     "types": [
       "dragon",
       "flying"
-    ],
-    "nameZh": "快龙",
-    "typesZh": [
-      "龙",
-      "飞"
     ]
   },
   {
@@ -1777,10 +1114,6 @@
     "name": "mewtwo",
     "types": [
       "psychic"
-    ],
-    "nameZh": "超梦",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -1788,10 +1121,6 @@
     "name": "mew",
     "types": [
       "psychic"
-    ],
-    "nameZh": "梦幻",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -1799,10 +1128,6 @@
     "name": "chikorita",
     "types": [
       "grass"
-    ],
-    "nameZh": "菊草叶",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -1810,10 +1135,6 @@
     "name": "bayleef",
     "types": [
       "grass"
-    ],
-    "nameZh": "月桂叶",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -1821,10 +1142,6 @@
     "name": "meganium",
     "types": [
       "grass"
-    ],
-    "nameZh": "大菊花",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -1832,10 +1149,6 @@
     "name": "cyndaquil",
     "types": [
       "fire"
-    ],
-    "nameZh": "火球鼠",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -1843,10 +1156,6 @@
     "name": "quilava",
     "types": [
       "fire"
-    ],
-    "nameZh": "火岩鼠",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -1854,10 +1163,6 @@
     "name": "typhlosion",
     "types": [
       "fire"
-    ],
-    "nameZh": "火暴兽",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -1865,10 +1170,6 @@
     "name": "totodile",
     "types": [
       "water"
-    ],
-    "nameZh": "小锯鳄",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1876,10 +1177,6 @@
     "name": "croconaw",
     "types": [
       "water"
-    ],
-    "nameZh": "蓝鳄",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1887,10 +1184,6 @@
     "name": "feraligatr",
     "types": [
       "water"
-    ],
-    "nameZh": "大力鳄",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -1898,10 +1191,6 @@
     "name": "sentret",
     "types": [
       "normal"
-    ],
-    "nameZh": "尾立",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1909,10 +1198,6 @@
     "name": "furret",
     "types": [
       "normal"
-    ],
-    "nameZh": "大尾立",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -1921,11 +1206,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "咕咕",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -1934,11 +1214,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "猫头夜鹰",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -1947,11 +1222,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "芭瓢虫",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -1960,11 +1230,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "安瓢虫",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -1973,11 +1238,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "线球",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -1986,11 +1246,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "阿利多斯",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -1999,11 +1254,6 @@
     "types": [
       "poison",
       "flying"
-    ],
-    "nameZh": "叉字蝠",
-    "typesZh": [
-      "毒",
-      "飞"
     ]
   },
   {
@@ -2012,11 +1262,6 @@
     "types": [
       "water",
       "electric"
-    ],
-    "nameZh": "灯笼鱼",
-    "typesZh": [
-      "水",
-      "电"
     ]
   },
   {
@@ -2025,11 +1270,6 @@
     "types": [
       "water",
       "electric"
-    ],
-    "nameZh": "电灯怪",
-    "typesZh": [
-      "水",
-      "电"
     ]
   },
   {
@@ -2037,10 +1277,6 @@
     "name": "pichu",
     "types": [
       "electric"
-    ],
-    "nameZh": "皮丘",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -2048,10 +1284,6 @@
     "name": "cleffa",
     "types": [
       "fairy"
-    ],
-    "nameZh": "皮宝宝",
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -2060,11 +1292,6 @@
     "types": [
       "normal",
       "fairy"
-    ],
-    "nameZh": "宝宝丁",
-    "typesZh": [
-      "普",
-      "妖"
     ]
   },
   {
@@ -2072,10 +1299,6 @@
     "name": "togepi",
     "types": [
       "fairy"
-    ],
-    "nameZh": "波克比",
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -2084,11 +1307,6 @@
     "types": [
       "fairy",
       "flying"
-    ],
-    "nameZh": "波克基古",
-    "typesZh": [
-      "妖",
-      "飞"
     ]
   },
   {
@@ -2097,11 +1315,6 @@
     "types": [
       "psychic",
       "flying"
-    ],
-    "nameZh": "天然雀",
-    "typesZh": [
-      "超",
-      "飞"
     ]
   },
   {
@@ -2110,11 +1323,6 @@
     "types": [
       "psychic",
       "flying"
-    ],
-    "nameZh": "天然鸟",
-    "typesZh": [
-      "超",
-      "飞"
     ]
   },
   {
@@ -2122,10 +1330,6 @@
     "name": "mareep",
     "types": [
       "electric"
-    ],
-    "nameZh": "咩利羊",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -2133,10 +1337,6 @@
     "name": "flaaffy",
     "types": [
       "electric"
-    ],
-    "nameZh": "绵绵",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -2144,10 +1344,6 @@
     "name": "ampharos",
     "types": [
       "electric"
-    ],
-    "nameZh": "电龙",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -2155,10 +1351,6 @@
     "name": "bellossom",
     "types": [
       "grass"
-    ],
-    "nameZh": "美丽花",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -2167,11 +1359,6 @@
     "types": [
       "water",
       "fairy"
-    ],
-    "nameZh": "玛力露",
-    "typesZh": [
-      "水",
-      "妖"
     ]
   },
   {
@@ -2180,11 +1367,6 @@
     "types": [
       "water",
       "fairy"
-    ],
-    "nameZh": "玛力露丽",
-    "typesZh": [
-      "水",
-      "妖"
     ]
   },
   {
@@ -2192,10 +1374,6 @@
     "name": "sudowoodo",
     "types": [
       "rock"
-    ],
-    "nameZh": "胡说树",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -2203,10 +1381,6 @@
     "name": "politoed",
     "types": [
       "water"
-    ],
-    "nameZh": "牛蛙君",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -2215,11 +1389,6 @@
     "types": [
       "grass",
       "flying"
-    ],
-    "nameZh": "毽子草",
-    "typesZh": [
-      "草",
-      "飞"
     ]
   },
   {
@@ -2228,11 +1397,6 @@
     "types": [
       "grass",
       "flying"
-    ],
-    "nameZh": "毽子花",
-    "typesZh": [
-      "草",
-      "飞"
     ]
   },
   {
@@ -2241,11 +1405,6 @@
     "types": [
       "grass",
       "flying"
-    ],
-    "nameZh": "毽子绵",
-    "typesZh": [
-      "草",
-      "飞"
     ]
   },
   {
@@ -2253,10 +1412,6 @@
     "name": "aipom",
     "types": [
       "normal"
-    ],
-    "nameZh": "长尾怪手",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2264,10 +1419,6 @@
     "name": "sunkern",
     "types": [
       "grass"
-    ],
-    "nameZh": "向日种子",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -2275,10 +1426,6 @@
     "name": "sunflora",
     "types": [
       "grass"
-    ],
-    "nameZh": "向日花怪",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -2287,11 +1434,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "阳阳玛",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -2300,11 +1442,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "乌波",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -2313,11 +1450,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "沼王",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -2325,10 +1457,6 @@
     "name": "espeon",
     "types": [
       "psychic"
-    ],
-    "nameZh": "太阳精灵",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -2336,10 +1464,6 @@
     "name": "umbreon",
     "types": [
       "dark"
-    ],
-    "nameZh": "月精灵",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -2348,11 +1472,6 @@
     "types": [
       "dark",
       "flying"
-    ],
-    "nameZh": "黑暗鸦",
-    "typesZh": [
-      "恶",
-      "飞"
     ]
   },
   {
@@ -2361,11 +1480,6 @@
     "types": [
       "water",
       "psychic"
-    ],
-    "nameZh": "河马王",
-    "typesZh": [
-      "水",
-      "超"
     ]
   },
   {
@@ -2373,10 +1487,6 @@
     "name": "misdreavus",
     "types": [
       "ghost"
-    ],
-    "nameZh": "梦妖",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -2384,10 +1494,6 @@
     "name": "unown",
     "types": [
       "psychic"
-    ],
-    "nameZh": "未知图腾",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -2395,10 +1501,6 @@
     "name": "wobbuffet",
     "types": [
       "psychic"
-    ],
-    "nameZh": "果然翁",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -2407,11 +1509,6 @@
     "types": [
       "normal",
       "psychic"
-    ],
-    "nameZh": "麒麟奇",
-    "typesZh": [
-      "普",
-      "超"
     ]
   },
   {
@@ -2419,10 +1516,6 @@
     "name": "pineco",
     "types": [
       "bug"
-    ],
-    "nameZh": "榛果球",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -2431,11 +1524,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "nameZh": "佛烈托斯",
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -2443,10 +1531,6 @@
     "name": "dunsparce",
     "types": [
       "normal"
-    ],
-    "nameZh": "土龙弟弟",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2455,11 +1539,6 @@
     "types": [
       "ground",
       "flying"
-    ],
-    "nameZh": "天蝎",
-    "typesZh": [
-      "地",
-      "飞"
     ]
   },
   {
@@ -2468,11 +1547,6 @@
     "types": [
       "steel",
       "ground"
-    ],
-    "nameZh": "大钢蛇",
-    "typesZh": [
-      "钢",
-      "地"
     ]
   },
   {
@@ -2480,10 +1554,6 @@
     "name": "snubbull",
     "types": [
       "fairy"
-    ],
-    "nameZh": "布卢",
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -2491,10 +1561,6 @@
     "name": "granbull",
     "types": [
       "fairy"
-    ],
-    "nameZh": "布卢皇",
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -2503,11 +1569,6 @@
     "types": [
       "water",
       "poison"
-    ],
-    "nameZh": "千针鱼",
-    "typesZh": [
-      "水",
-      "毒"
     ]
   },
   {
@@ -2516,11 +1577,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "nameZh": "巨钳螳螂",
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -2529,11 +1585,6 @@
     "types": [
       "bug",
       "rock"
-    ],
-    "nameZh": "壶壶",
-    "typesZh": [
-      "虫",
-      "岩"
     ]
   },
   {
@@ -2542,11 +1593,6 @@
     "types": [
       "bug",
       "fighting"
-    ],
-    "nameZh": "赫拉克罗斯",
-    "typesZh": [
-      "虫",
-      "斗"
     ]
   },
   {
@@ -2555,11 +1601,6 @@
     "types": [
       "dark",
       "ice"
-    ],
-    "nameZh": "狃拉",
-    "typesZh": [
-      "恶",
-      "冰"
     ]
   },
   {
@@ -2567,10 +1608,6 @@
     "name": "teddiursa",
     "types": [
       "normal"
-    ],
-    "nameZh": "熊宝宝",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2578,10 +1615,6 @@
     "name": "ursaring",
     "types": [
       "normal"
-    ],
-    "nameZh": "圈圈熊",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2589,10 +1622,6 @@
     "name": "slugma",
     "types": [
       "fire"
-    ],
-    "nameZh": "熔岩虫",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -2601,11 +1630,6 @@
     "types": [
       "fire",
       "rock"
-    ],
-    "nameZh": "熔岩蜗牛",
-    "typesZh": [
-      "炎",
-      "岩"
     ]
   },
   {
@@ -2614,11 +1638,6 @@
     "types": [
       "ice",
       "ground"
-    ],
-    "nameZh": "小山猪",
-    "typesZh": [
-      "冰",
-      "地"
     ]
   },
   {
@@ -2627,11 +1646,6 @@
     "types": [
       "ice",
       "ground"
-    ],
-    "nameZh": "长毛猪",
-    "typesZh": [
-      "冰",
-      "地"
     ]
   },
   {
@@ -2640,11 +1654,6 @@
     "types": [
       "water",
       "rock"
-    ],
-    "nameZh": "太阳珊瑚",
-    "typesZh": [
-      "水",
-      "岩"
     ]
   },
   {
@@ -2652,10 +1661,6 @@
     "name": "remoraid",
     "types": [
       "water"
-    ],
-    "nameZh": "铁炮鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -2663,10 +1668,6 @@
     "name": "octillery",
     "types": [
       "water"
-    ],
-    "nameZh": "章鱼桶",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -2675,11 +1676,6 @@
     "types": [
       "ice",
       "flying"
-    ],
-    "nameZh": "信使鸟",
-    "typesZh": [
-      "冰",
-      "飞"
     ]
   },
   {
@@ -2688,11 +1684,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "巨翅飞鱼",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -2701,11 +1692,6 @@
     "types": [
       "steel",
       "flying"
-    ],
-    "nameZh": "盔甲鸟",
-    "typesZh": [
-      "钢",
-      "飞"
     ]
   },
   {
@@ -2714,11 +1700,6 @@
     "types": [
       "dark",
       "fire"
-    ],
-    "nameZh": "戴鲁比",
-    "typesZh": [
-      "恶",
-      "炎"
     ]
   },
   {
@@ -2727,11 +1708,6 @@
     "types": [
       "dark",
       "fire"
-    ],
-    "nameZh": "黑鲁加",
-    "typesZh": [
-      "恶",
-      "炎"
     ]
   },
   {
@@ -2740,11 +1716,6 @@
     "types": [
       "water",
       "dragon"
-    ],
-    "nameZh": "刺龙王",
-    "typesZh": [
-      "水",
-      "龙"
     ]
   },
   {
@@ -2752,10 +1723,6 @@
     "name": "phanpy",
     "types": [
       "ground"
-    ],
-    "nameZh": "小小象",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -2763,10 +1730,6 @@
     "name": "donphan",
     "types": [
       "ground"
-    ],
-    "nameZh": "顿甲",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -2774,10 +1737,6 @@
     "name": "porygon2",
     "types": [
       "normal"
-    ],
-    "nameZh": "3D龙II",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2785,10 +1744,6 @@
     "name": "stantler",
     "types": [
       "normal"
-    ],
-    "nameZh": "惊角鹿",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2796,10 +1751,6 @@
     "name": "smeargle",
     "types": [
       "normal"
-    ],
-    "nameZh": "图图犬",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2807,10 +1758,6 @@
     "name": "tyrogue",
     "types": [
       "fighting"
-    ],
-    "nameZh": "巴尔郎",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -2818,10 +1765,6 @@
     "name": "hitmontop",
     "types": [
       "fighting"
-    ],
-    "nameZh": "柯波朗",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -2830,11 +1773,6 @@
     "types": [
       "ice",
       "psychic"
-    ],
-    "nameZh": "迷唇娃",
-    "typesZh": [
-      "冰",
-      "超"
     ]
   },
   {
@@ -2842,10 +1780,6 @@
     "name": "elekid",
     "types": [
       "electric"
-    ],
-    "nameZh": "电击怪",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -2853,10 +1787,6 @@
     "name": "magby",
     "types": [
       "fire"
-    ],
-    "nameZh": "小鸭嘴龙",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -2864,10 +1794,6 @@
     "name": "miltank",
     "types": [
       "normal"
-    ],
-    "nameZh": "大奶罐",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2875,10 +1801,6 @@
     "name": "blissey",
     "types": [
       "normal"
-    ],
-    "nameZh": "幸福蛋",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -2886,10 +1808,6 @@
     "name": "raikou",
     "types": [
       "electric"
-    ],
-    "nameZh": "雷公",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -2897,10 +1815,6 @@
     "name": "entei",
     "types": [
       "fire"
-    ],
-    "nameZh": "炎帝",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -2908,10 +1822,6 @@
     "name": "suicune",
     "types": [
       "water"
-    ],
-    "nameZh": "水君",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -2920,11 +1830,6 @@
     "types": [
       "rock",
       "ground"
-    ],
-    "nameZh": "由基拉",
-    "typesZh": [
-      "岩",
-      "地"
     ]
   },
   {
@@ -2933,11 +1838,6 @@
     "types": [
       "rock",
       "ground"
-    ],
-    "nameZh": "沙基拉",
-    "typesZh": [
-      "岩",
-      "地"
     ]
   },
   {
@@ -2946,11 +1846,6 @@
     "types": [
       "rock",
       "dark"
-    ],
-    "nameZh": "班吉拉",
-    "typesZh": [
-      "岩",
-      "恶"
     ]
   },
   {
@@ -2959,11 +1854,6 @@
     "types": [
       "psychic",
       "flying"
-    ],
-    "nameZh": "洛奇亚",
-    "typesZh": [
-      "超",
-      "飞"
     ]
   },
   {
@@ -2972,11 +1862,6 @@
     "types": [
       "fire",
       "flying"
-    ],
-    "nameZh": "凤王",
-    "typesZh": [
-      "炎",
-      "飞"
     ]
   },
   {
@@ -2985,11 +1870,6 @@
     "types": [
       "psychic",
       "grass"
-    ],
-    "nameZh": "雪拉比",
-    "typesZh": [
-      "超",
-      "草"
     ]
   },
   {
@@ -2997,10 +1877,6 @@
     "name": "treecko",
     "types": [
       "grass"
-    ],
-    "nameZh": "木守宫",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -3008,10 +1884,6 @@
     "name": "grovyle",
     "types": [
       "grass"
-    ],
-    "nameZh": "森林蜥蜴",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -3019,10 +1891,6 @@
     "name": "sceptile",
     "types": [
       "grass"
-    ],
-    "nameZh": "蜥蜴王",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -3030,10 +1898,6 @@
     "name": "torchic",
     "types": [
       "fire"
-    ],
-    "nameZh": "火稚鸡",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -3042,11 +1906,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "nameZh": "力壮鸡",
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -3055,11 +1914,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "nameZh": "火焰鸡",
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -3067,10 +1921,6 @@
     "name": "mudkip",
     "types": [
       "water"
-    ],
-    "nameZh": "水跃鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -3079,11 +1929,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "沼跃鱼",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -3092,11 +1937,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "巨沼怪",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -3104,10 +1944,6 @@
     "name": "poochyena",
     "types": [
       "dark"
-    ],
-    "nameZh": "土狼犬",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -3115,10 +1951,6 @@
     "name": "mightyena",
     "types": [
       "dark"
-    ],
-    "nameZh": "大狼犬",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -3126,10 +1958,6 @@
     "name": "zigzagoon",
     "types": [
       "normal"
-    ],
-    "nameZh": "蛇纹熊",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3137,10 +1965,6 @@
     "name": "linoone",
     "types": [
       "normal"
-    ],
-    "nameZh": "直冲熊",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3148,10 +1972,6 @@
     "name": "wurmple",
     "types": [
       "bug"
-    ],
-    "nameZh": "刺尾虫",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -3159,10 +1979,6 @@
     "name": "silcoon",
     "types": [
       "bug"
-    ],
-    "nameZh": "甲壳蛹",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -3171,11 +1987,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "狩猎凤蝶",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -3183,10 +1994,6 @@
     "name": "cascoon",
     "types": [
       "bug"
-    ],
-    "nameZh": "盾甲茧",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -3195,11 +2002,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "毒粉蝶",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -3208,11 +2010,6 @@
     "types": [
       "water",
       "grass"
-    ],
-    "nameZh": "莲叶童子",
-    "typesZh": [
-      "水",
-      "草"
     ]
   },
   {
@@ -3221,11 +2018,6 @@
     "types": [
       "water",
       "grass"
-    ],
-    "nameZh": "莲帽小童",
-    "typesZh": [
-      "水",
-      "草"
     ]
   },
   {
@@ -3234,11 +2026,6 @@
     "types": [
       "water",
       "grass"
-    ],
-    "nameZh": "乐天河童",
-    "typesZh": [
-      "水",
-      "草"
     ]
   },
   {
@@ -3246,10 +2033,6 @@
     "name": "seedot",
     "types": [
       "grass"
-    ],
-    "nameZh": "橡实果",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -3258,11 +2041,6 @@
     "types": [
       "grass",
       "dark"
-    ],
-    "nameZh": "长鼻叶",
-    "typesZh": [
-      "草",
-      "恶"
     ]
   },
   {
@@ -3271,11 +2049,6 @@
     "types": [
       "grass",
       "dark"
-    ],
-    "nameZh": "狡猾天狗",
-    "typesZh": [
-      "草",
-      "恶"
     ]
   },
   {
@@ -3284,11 +2057,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "傲骨燕",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -3297,11 +2065,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "大王燕",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -3310,11 +2073,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "长翅鸥",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -3323,11 +2081,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "大嘴鸥",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -3336,11 +2089,6 @@
     "types": [
       "psychic",
       "fairy"
-    ],
-    "nameZh": "拉鲁拉丝",
-    "typesZh": [
-      "超",
-      "妖"
     ]
   },
   {
@@ -3349,11 +2097,6 @@
     "types": [
       "psychic",
       "fairy"
-    ],
-    "nameZh": "奇鲁莉安",
-    "typesZh": [
-      "超",
-      "妖"
     ]
   },
   {
@@ -3362,11 +2105,6 @@
     "types": [
       "psychic",
       "fairy"
-    ],
-    "nameZh": "沙奈朵",
-    "typesZh": [
-      "超",
-      "妖"
     ]
   },
   {
@@ -3375,11 +2113,6 @@
     "types": [
       "bug",
       "water"
-    ],
-    "nameZh": "溜溜糖球",
-    "typesZh": [
-      "虫",
-      "水"
     ]
   },
   {
@@ -3388,11 +2121,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "雨翅蛾",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -3400,10 +2128,6 @@
     "name": "shroomish",
     "types": [
       "grass"
-    ],
-    "nameZh": "蘑蘑菇",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -3412,11 +2136,6 @@
     "types": [
       "grass",
       "fighting"
-    ],
-    "nameZh": "斗笠菇",
-    "typesZh": [
-      "草",
-      "斗"
     ]
   },
   {
@@ -3424,10 +2143,6 @@
     "name": "slakoth",
     "types": [
       "normal"
-    ],
-    "nameZh": "懒人翁",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3435,10 +2150,6 @@
     "name": "vigoroth",
     "types": [
       "normal"
-    ],
-    "nameZh": "过动猿",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3446,10 +2157,6 @@
     "name": "slaking",
     "types": [
       "normal"
-    ],
-    "nameZh": "请假王",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3458,11 +2165,6 @@
     "types": [
       "bug",
       "ground"
-    ],
-    "nameZh": "土居忍士",
-    "typesZh": [
-      "虫",
-      "地"
     ]
   },
   {
@@ -3471,11 +2173,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "铁面忍者",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -3484,11 +2181,6 @@
     "types": [
       "bug",
       "ghost"
-    ],
-    "nameZh": "脱壳忍者",
-    "typesZh": [
-      "虫",
-      "鬼"
     ]
   },
   {
@@ -3496,10 +2188,6 @@
     "name": "whismur",
     "types": [
       "normal"
-    ],
-    "nameZh": "咕妞妞",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3507,10 +2195,6 @@
     "name": "loudred",
     "types": [
       "normal"
-    ],
-    "nameZh": "吼爆弹",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3518,10 +2202,6 @@
     "name": "exploud",
     "types": [
       "normal"
-    ],
-    "nameZh": "爆音怪",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3529,10 +2209,6 @@
     "name": "makuhita",
     "types": [
       "fighting"
-    ],
-    "nameZh": "幕下力士",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -3540,10 +2216,6 @@
     "name": "hariyama",
     "types": [
       "fighting"
-    ],
-    "nameZh": "超力王",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -3552,11 +2224,6 @@
     "types": [
       "normal",
       "fairy"
-    ],
-    "nameZh": "露力丽",
-    "typesZh": [
-      "普",
-      "妖"
     ]
   },
   {
@@ -3564,10 +2231,6 @@
     "name": "nosepass",
     "types": [
       "rock"
-    ],
-    "nameZh": "朝北鼻",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -3575,10 +2238,6 @@
     "name": "skitty",
     "types": [
       "normal"
-    ],
-    "nameZh": "向尾喵",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3586,10 +2245,6 @@
     "name": "delcatty",
     "types": [
       "normal"
-    ],
-    "nameZh": "优雅猫",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3598,11 +2253,6 @@
     "types": [
       "dark",
       "ghost"
-    ],
-    "nameZh": "勾魂眼",
-    "typesZh": [
-      "恶",
-      "鬼"
     ]
   },
   {
@@ -3611,11 +2261,6 @@
     "types": [
       "steel",
       "fairy"
-    ],
-    "nameZh": "大嘴娃",
-    "typesZh": [
-      "钢",
-      "妖"
     ]
   },
   {
@@ -3624,11 +2269,6 @@
     "types": [
       "steel",
       "rock"
-    ],
-    "nameZh": "可可多拉",
-    "typesZh": [
-      "钢",
-      "岩"
     ]
   },
   {
@@ -3637,11 +2277,6 @@
     "types": [
       "steel",
       "rock"
-    ],
-    "nameZh": "可多拉",
-    "typesZh": [
-      "钢",
-      "岩"
     ]
   },
   {
@@ -3650,11 +2285,6 @@
     "types": [
       "steel",
       "rock"
-    ],
-    "nameZh": "波士可多拉",
-    "typesZh": [
-      "钢",
-      "岩"
     ]
   },
   {
@@ -3663,11 +2293,6 @@
     "types": [
       "fighting",
       "psychic"
-    ],
-    "nameZh": "玛沙那",
-    "typesZh": [
-      "斗",
-      "超"
     ]
   },
   {
@@ -3676,11 +2301,6 @@
     "types": [
       "fighting",
       "psychic"
-    ],
-    "nameZh": "恰雷姆",
-    "typesZh": [
-      "斗",
-      "超"
     ]
   },
   {
@@ -3688,10 +2308,6 @@
     "name": "electrike",
     "types": [
       "electric"
-    ],
-    "nameZh": "落雷兽",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -3699,10 +2315,6 @@
     "name": "manectric",
     "types": [
       "electric"
-    ],
-    "nameZh": "雷电兽",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -3710,10 +2322,6 @@
     "name": "plusle",
     "types": [
       "electric"
-    ],
-    "nameZh": "正电拍拍",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -3721,10 +2329,6 @@
     "name": "minun",
     "types": [
       "electric"
-    ],
-    "nameZh": "负电拍拍",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -3732,10 +2336,6 @@
     "name": "volbeat",
     "types": [
       "bug"
-    ],
-    "nameZh": "电萤虫",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -3743,10 +2343,6 @@
     "name": "illumise",
     "types": [
       "bug"
-    ],
-    "nameZh": "甜甜萤",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -3755,11 +2351,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "毒蔷薇",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -3767,10 +2358,6 @@
     "name": "gulpin",
     "types": [
       "poison"
-    ],
-    "nameZh": "溶食兽",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -3778,10 +2365,6 @@
     "name": "swalot",
     "types": [
       "poison"
-    ],
-    "nameZh": "吞食兽",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -3790,11 +2373,6 @@
     "types": [
       "water",
       "dark"
-    ],
-    "nameZh": "利牙鱼",
-    "typesZh": [
-      "水",
-      "恶"
     ]
   },
   {
@@ -3803,11 +2381,6 @@
     "types": [
       "water",
       "dark"
-    ],
-    "nameZh": "巨牙鲨",
-    "typesZh": [
-      "水",
-      "恶"
     ]
   },
   {
@@ -3815,10 +2388,6 @@
     "name": "wailmer",
     "types": [
       "water"
-    ],
-    "nameZh": "吼吼鲸",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -3826,10 +2395,6 @@
     "name": "wailord",
     "types": [
       "water"
-    ],
-    "nameZh": "吼鲸王",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -3838,11 +2403,6 @@
     "types": [
       "fire",
       "ground"
-    ],
-    "nameZh": "呆火驼",
-    "typesZh": [
-      "炎",
-      "地"
     ]
   },
   {
@@ -3851,11 +2411,6 @@
     "types": [
       "fire",
       "ground"
-    ],
-    "nameZh": "喷火驼",
-    "typesZh": [
-      "炎",
-      "地"
     ]
   },
   {
@@ -3863,10 +2418,6 @@
     "name": "torkoal",
     "types": [
       "fire"
-    ],
-    "nameZh": "煤炭龟",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -3874,10 +2425,6 @@
     "name": "spoink",
     "types": [
       "psychic"
-    ],
-    "nameZh": "跳跳猪",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -3885,10 +2432,6 @@
     "name": "grumpig",
     "types": [
       "psychic"
-    ],
-    "nameZh": "噗噗猪",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -3896,10 +2439,6 @@
     "name": "spinda",
     "types": [
       "normal"
-    ],
-    "nameZh": "晃晃斑",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -3907,10 +2446,6 @@
     "name": "trapinch",
     "types": [
       "ground"
-    ],
-    "nameZh": "大颚蚁",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -3919,11 +2454,6 @@
     "types": [
       "ground",
       "dragon"
-    ],
-    "nameZh": "超音波幼虫",
-    "typesZh": [
-      "地",
-      "龙"
     ]
   },
   {
@@ -3932,11 +2462,6 @@
     "types": [
       "ground",
       "dragon"
-    ],
-    "nameZh": "沙漠蜻蜓",
-    "typesZh": [
-      "地",
-      "龙"
     ]
   },
   {
@@ -3944,10 +2469,6 @@
     "name": "cacnea",
     "types": [
       "grass"
-    ],
-    "nameZh": "沙漠奈亚",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -3956,11 +2477,6 @@
     "types": [
       "grass",
       "dark"
-    ],
-    "nameZh": "梦歌奈亚",
-    "typesZh": [
-      "草",
-      "恶"
     ]
   },
   {
@@ -3969,11 +2485,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "青绵鸟",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -3982,11 +2493,6 @@
     "types": [
       "dragon",
       "flying"
-    ],
-    "nameZh": "七夕青鸟",
-    "typesZh": [
-      "龙",
-      "飞"
     ]
   },
   {
@@ -3994,10 +2500,6 @@
     "name": "zangoose",
     "types": [
       "normal"
-    ],
-    "nameZh": "猫鼬斩",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -4005,10 +2507,6 @@
     "name": "seviper",
     "types": [
       "poison"
-    ],
-    "nameZh": "饭匙蛇",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -4017,11 +2515,6 @@
     "types": [
       "rock",
       "psychic"
-    ],
-    "nameZh": "月石",
-    "typesZh": [
-      "岩",
-      "超"
     ]
   },
   {
@@ -4030,11 +2523,6 @@
     "types": [
       "rock",
       "psychic"
-    ],
-    "nameZh": "太阳岩",
-    "typesZh": [
-      "岩",
-      "超"
     ]
   },
   {
@@ -4043,11 +2531,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "泥泥鳅",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -4056,11 +2539,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "鲶鱼王",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -4068,10 +2546,6 @@
     "name": "corphish",
     "types": [
       "water"
-    ],
-    "nameZh": "龙虾小兵",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4080,11 +2554,6 @@
     "types": [
       "water",
       "dark"
-    ],
-    "nameZh": "铁螯龙虾",
-    "typesZh": [
-      "水",
-      "恶"
     ]
   },
   {
@@ -4093,11 +2562,6 @@
     "types": [
       "ground",
       "psychic"
-    ],
-    "nameZh": "天秤偶",
-    "typesZh": [
-      "地",
-      "超"
     ]
   },
   {
@@ -4106,11 +2570,6 @@
     "types": [
       "ground",
       "psychic"
-    ],
-    "nameZh": "念力土偶",
-    "typesZh": [
-      "地",
-      "超"
     ]
   },
   {
@@ -4119,11 +2578,6 @@
     "types": [
       "rock",
       "grass"
-    ],
-    "nameZh": "触手百合",
-    "typesZh": [
-      "岩",
-      "草"
     ]
   },
   {
@@ -4132,11 +2586,6 @@
     "types": [
       "rock",
       "grass"
-    ],
-    "nameZh": "摇篮百合",
-    "typesZh": [
-      "岩",
-      "草"
     ]
   },
   {
@@ -4145,11 +2594,6 @@
     "types": [
       "rock",
       "bug"
-    ],
-    "nameZh": "太古羽虫",
-    "typesZh": [
-      "岩",
-      "虫"
     ]
   },
   {
@@ -4158,11 +2602,6 @@
     "types": [
       "rock",
       "bug"
-    ],
-    "nameZh": "太古盔甲",
-    "typesZh": [
-      "岩",
-      "虫"
     ]
   },
   {
@@ -4170,10 +2609,6 @@
     "name": "feebas",
     "types": [
       "water"
-    ],
-    "nameZh": "笨笨鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4181,10 +2616,6 @@
     "name": "milotic",
     "types": [
       "water"
-    ],
-    "nameZh": "美纳斯",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4192,10 +2623,6 @@
     "name": "castform",
     "types": [
       "normal"
-    ],
-    "nameZh": "漂浮泡泡",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -4203,10 +2630,6 @@
     "name": "kecleon",
     "types": [
       "normal"
-    ],
-    "nameZh": "变隐龙",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -4214,10 +2637,6 @@
     "name": "shuppet",
     "types": [
       "ghost"
-    ],
-    "nameZh": "怨影娃娃",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -4225,10 +2644,6 @@
     "name": "banette",
     "types": [
       "ghost"
-    ],
-    "nameZh": "诅咒娃娃",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -4236,10 +2651,6 @@
     "name": "duskull",
     "types": [
       "ghost"
-    ],
-    "nameZh": "夜骷颅",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -4247,10 +2658,6 @@
     "name": "dusclops",
     "types": [
       "ghost"
-    ],
-    "nameZh": "夜巨人",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -4259,11 +2666,6 @@
     "types": [
       "grass",
       "flying"
-    ],
-    "nameZh": "热带龙",
-    "typesZh": [
-      "草",
-      "飞"
     ]
   },
   {
@@ -4271,10 +2673,6 @@
     "name": "chimecho",
     "types": [
       "psychic"
-    ],
-    "nameZh": "风铃铃",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -4282,10 +2680,6 @@
     "name": "absol",
     "types": [
       "dark"
-    ],
-    "nameZh": "阿勃梭鲁",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -4293,10 +2687,6 @@
     "name": "wynaut",
     "types": [
       "psychic"
-    ],
-    "nameZh": "小果然",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -4304,10 +2694,6 @@
     "name": "snorunt",
     "types": [
       "ice"
-    ],
-    "nameZh": "雪童子",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -4315,10 +2701,6 @@
     "name": "glalie",
     "types": [
       "ice"
-    ],
-    "nameZh": "冰鬼护",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -4327,11 +2709,6 @@
     "types": [
       "ice",
       "water"
-    ],
-    "nameZh": "海豹球",
-    "typesZh": [
-      "冰",
-      "水"
     ]
   },
   {
@@ -4340,11 +2717,6 @@
     "types": [
       "ice",
       "water"
-    ],
-    "nameZh": "海魔狮",
-    "typesZh": [
-      "冰",
-      "水"
     ]
   },
   {
@@ -4353,11 +2725,6 @@
     "types": [
       "ice",
       "water"
-    ],
-    "nameZh": "帝牙海狮",
-    "typesZh": [
-      "冰",
-      "水"
     ]
   },
   {
@@ -4365,10 +2732,6 @@
     "name": "clamperl",
     "types": [
       "water"
-    ],
-    "nameZh": "珍珠贝",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4376,10 +2739,6 @@
     "name": "huntail",
     "types": [
       "water"
-    ],
-    "nameZh": "猎斑鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4387,10 +2746,6 @@
     "name": "gorebyss",
     "types": [
       "water"
-    ],
-    "nameZh": "樱花鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4399,11 +2754,6 @@
     "types": [
       "water",
       "rock"
-    ],
-    "nameZh": "古空棘鱼",
-    "typesZh": [
-      "水",
-      "岩"
     ]
   },
   {
@@ -4411,10 +2761,6 @@
     "name": "luvdisc",
     "types": [
       "water"
-    ],
-    "nameZh": "爱心鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4422,10 +2768,6 @@
     "name": "bagon",
     "types": [
       "dragon"
-    ],
-    "nameZh": "宝贝龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -4433,10 +2775,6 @@
     "name": "shelgon",
     "types": [
       "dragon"
-    ],
-    "nameZh": "甲壳龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -4445,11 +2783,6 @@
     "types": [
       "dragon",
       "flying"
-    ],
-    "nameZh": "暴蝾螈",
-    "typesZh": [
-      "龙",
-      "飞"
     ]
   },
   {
@@ -4458,11 +2791,6 @@
     "types": [
       "steel",
       "psychic"
-    ],
-    "nameZh": "铁哑铃",
-    "typesZh": [
-      "钢",
-      "超"
     ]
   },
   {
@@ -4471,11 +2799,6 @@
     "types": [
       "steel",
       "psychic"
-    ],
-    "nameZh": "金属怪",
-    "typesZh": [
-      "钢",
-      "超"
     ]
   },
   {
@@ -4484,11 +2807,6 @@
     "types": [
       "steel",
       "psychic"
-    ],
-    "nameZh": "巨金怪",
-    "typesZh": [
-      "钢",
-      "超"
     ]
   },
   {
@@ -4496,10 +2814,6 @@
     "name": "regirock",
     "types": [
       "rock"
-    ],
-    "nameZh": "雷吉洛克",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -4507,10 +2821,6 @@
     "name": "regice",
     "types": [
       "ice"
-    ],
-    "nameZh": "雷吉艾斯",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -4518,10 +2828,6 @@
     "name": "registeel",
     "types": [
       "steel"
-    ],
-    "nameZh": "雷吉斯奇鲁",
-    "typesZh": [
-      "钢"
     ]
   },
   {
@@ -4530,11 +2836,6 @@
     "types": [
       "dragon",
       "psychic"
-    ],
-    "nameZh": "拉帝亚斯",
-    "typesZh": [
-      "龙",
-      "超"
     ]
   },
   {
@@ -4543,11 +2844,6 @@
     "types": [
       "dragon",
       "psychic"
-    ],
-    "nameZh": "拉帝欧斯",
-    "typesZh": [
-      "龙",
-      "超"
     ]
   },
   {
@@ -4555,10 +2851,6 @@
     "name": "kyogre",
     "types": [
       "water"
-    ],
-    "nameZh": "盖欧卡",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4566,10 +2858,6 @@
     "name": "groudon",
     "types": [
       "ground"
-    ],
-    "nameZh": "固拉多",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -4578,11 +2866,6 @@
     "types": [
       "dragon",
       "flying"
-    ],
-    "nameZh": "烈空坐",
-    "typesZh": [
-      "龙",
-      "飞"
     ]
   },
   {
@@ -4591,11 +2874,6 @@
     "types": [
       "steel",
       "psychic"
-    ],
-    "nameZh": "基拉祈",
-    "typesZh": [
-      "钢",
-      "超"
     ]
   },
   {
@@ -4603,9 +2881,6 @@
     "name": "deoxys-normal",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -4613,10 +2888,6 @@
     "name": "turtwig",
     "types": [
       "grass"
-    ],
-    "nameZh": "草苗龟",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -4624,10 +2895,6 @@
     "name": "grotle",
     "types": [
       "grass"
-    ],
-    "nameZh": "树林龟",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -4636,11 +2903,6 @@
     "types": [
       "grass",
       "ground"
-    ],
-    "nameZh": "土台龟",
-    "typesZh": [
-      "草",
-      "地"
     ]
   },
   {
@@ -4648,10 +2910,6 @@
     "name": "chimchar",
     "types": [
       "fire"
-    ],
-    "nameZh": "小火焰猴",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -4660,11 +2918,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "nameZh": "猛火猴",
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -4673,11 +2926,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "nameZh": "烈焰猴",
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -4685,10 +2933,6 @@
     "name": "piplup",
     "types": [
       "water"
-    ],
-    "nameZh": "波加曼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4696,10 +2940,6 @@
     "name": "prinplup",
     "types": [
       "water"
-    ],
-    "nameZh": "波皇子",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4708,11 +2948,6 @@
     "types": [
       "water",
       "steel"
-    ],
-    "nameZh": "帝王拿波",
-    "typesZh": [
-      "水",
-      "钢"
     ]
   },
   {
@@ -4721,11 +2956,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "姆克儿",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -4734,11 +2964,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "姆克鸟",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -4747,11 +2972,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "姆克鹰",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -4759,10 +2979,6 @@
     "name": "bidoof",
     "types": [
       "normal"
-    ],
-    "nameZh": "大牙狸",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -4771,11 +2987,6 @@
     "types": [
       "normal",
       "water"
-    ],
-    "nameZh": "大尾狸",
-    "typesZh": [
-      "普",
-      "水"
     ]
   },
   {
@@ -4783,10 +2994,6 @@
     "name": "kricketot",
     "types": [
       "bug"
-    ],
-    "nameZh": "圆法师",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -4794,10 +3001,6 @@
     "name": "kricketune",
     "types": [
       "bug"
-    ],
-    "nameZh": "音箱蟀",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -4805,10 +3008,6 @@
     "name": "shinx",
     "types": [
       "electric"
-    ],
-    "nameZh": "小猫怪",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -4816,10 +3015,6 @@
     "name": "luxio",
     "types": [
       "electric"
-    ],
-    "nameZh": "勒克猫",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -4827,10 +3022,6 @@
     "name": "luxray",
     "types": [
       "electric"
-    ],
-    "nameZh": "伦琴猫",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -4839,11 +3030,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "含羞苞",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -4852,11 +3038,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "罗丝雷朵",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -4864,10 +3045,6 @@
     "name": "cranidos",
     "types": [
       "rock"
-    ],
-    "nameZh": "头盖龙",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -4875,10 +3052,6 @@
     "name": "rampardos",
     "types": [
       "rock"
-    ],
-    "nameZh": "战槌龙",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -4887,11 +3060,6 @@
     "types": [
       "rock",
       "steel"
-    ],
-    "nameZh": "盾甲龙",
-    "typesZh": [
-      "岩",
-      "钢"
     ]
   },
   {
@@ -4900,11 +3068,6 @@
     "types": [
       "rock",
       "steel"
-    ],
-    "nameZh": "护城龙",
-    "typesZh": [
-      "岩",
-      "钢"
     ]
   },
   {
@@ -4912,10 +3075,6 @@
     "name": "burmy",
     "types": [
       "bug"
-    ],
-    "nameZh": "结草儿",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -4924,10 +3083,6 @@
     "types": [
       "bug",
       "grass"
-    ],
-    "typesZh": [
-      "虫",
-      "草"
     ]
   },
   {
@@ -4936,11 +3091,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "绅士蛾",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -4949,11 +3099,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "三蜜蜂",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -4962,11 +3107,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "蜂后",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -4974,10 +3114,6 @@
     "name": "pachirisu",
     "types": [
       "electric"
-    ],
-    "nameZh": "帕奇利兹",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -4985,10 +3121,6 @@
     "name": "buizel",
     "types": [
       "water"
-    ],
-    "nameZh": "泳气鼬",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -4996,10 +3128,6 @@
     "name": "floatzel",
     "types": [
       "water"
-    ],
-    "nameZh": "浮潜鼬",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5007,10 +3135,6 @@
     "name": "cherubi",
     "types": [
       "grass"
-    ],
-    "nameZh": "樱花宝",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5018,10 +3142,6 @@
     "name": "cherrim",
     "types": [
       "grass"
-    ],
-    "nameZh": "樱花儿",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5029,10 +3149,6 @@
     "name": "shellos",
     "types": [
       "water"
-    ],
-    "nameZh": "无壳海牛",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5041,11 +3157,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "海牛兽",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -5053,10 +3164,6 @@
     "name": "ambipom",
     "types": [
       "normal"
-    ],
-    "nameZh": "双尾怪手",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5065,11 +3172,6 @@
     "types": [
       "ghost",
       "flying"
-    ],
-    "nameZh": "飘飘球",
-    "typesZh": [
-      "鬼",
-      "飞"
     ]
   },
   {
@@ -5078,11 +3180,6 @@
     "types": [
       "ghost",
       "flying"
-    ],
-    "nameZh": "附和气球",
-    "typesZh": [
-      "鬼",
-      "飞"
     ]
   },
   {
@@ -5090,10 +3187,6 @@
     "name": "buneary",
     "types": [
       "normal"
-    ],
-    "nameZh": "卷卷耳",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5101,10 +3194,6 @@
     "name": "lopunny",
     "types": [
       "normal"
-    ],
-    "nameZh": "长耳兔",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5112,10 +3201,6 @@
     "name": "mismagius",
     "types": [
       "ghost"
-    ],
-    "nameZh": "梦妖魔",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -5124,11 +3209,6 @@
     "types": [
       "dark",
       "flying"
-    ],
-    "nameZh": "乌鸦头头",
-    "typesZh": [
-      "恶",
-      "飞"
     ]
   },
   {
@@ -5136,10 +3216,6 @@
     "name": "glameow",
     "types": [
       "normal"
-    ],
-    "nameZh": "魅力喵",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5147,10 +3223,6 @@
     "name": "purugly",
     "types": [
       "normal"
-    ],
-    "nameZh": "东施喵",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5158,10 +3230,6 @@
     "name": "chingling",
     "types": [
       "psychic"
-    ],
-    "nameZh": "铃铛响",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -5170,11 +3238,6 @@
     "types": [
       "poison",
       "dark"
-    ],
-    "nameZh": "臭鼬噗",
-    "typesZh": [
-      "毒",
-      "恶"
     ]
   },
   {
@@ -5183,11 +3246,6 @@
     "types": [
       "poison",
       "dark"
-    ],
-    "nameZh": "坦克臭鼬",
-    "typesZh": [
-      "毒",
-      "恶"
     ]
   },
   {
@@ -5196,11 +3254,6 @@
     "types": [
       "steel",
       "psychic"
-    ],
-    "nameZh": "铜镜怪",
-    "typesZh": [
-      "钢",
-      "超"
     ]
   },
   {
@@ -5209,11 +3262,6 @@
     "types": [
       "steel",
       "psychic"
-    ],
-    "nameZh": "青铜钟",
-    "typesZh": [
-      "钢",
-      "超"
     ]
   },
   {
@@ -5221,10 +3269,6 @@
     "name": "bonsly",
     "types": [
       "rock"
-    ],
-    "nameZh": "爱哭树",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -5233,11 +3277,6 @@
     "types": [
       "psychic",
       "fairy"
-    ],
-    "nameZh": "魔尼尼",
-    "typesZh": [
-      "超",
-      "妖"
     ]
   },
   {
@@ -5245,10 +3284,6 @@
     "name": "happiny",
     "types": [
       "normal"
-    ],
-    "nameZh": "好运蛋",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5257,11 +3292,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "聒噪鸟",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -5270,11 +3300,6 @@
     "types": [
       "ghost",
       "dark"
-    ],
-    "nameZh": "花岩怪",
-    "typesZh": [
-      "鬼",
-      "恶"
     ]
   },
   {
@@ -5283,11 +3308,6 @@
     "types": [
       "dragon",
       "ground"
-    ],
-    "nameZh": "圆陆鲨",
-    "typesZh": [
-      "龙",
-      "地"
     ]
   },
   {
@@ -5296,11 +3316,6 @@
     "types": [
       "dragon",
       "ground"
-    ],
-    "nameZh": "尖牙陆鲨",
-    "typesZh": [
-      "龙",
-      "地"
     ]
   },
   {
@@ -5309,11 +3324,6 @@
     "types": [
       "dragon",
       "ground"
-    ],
-    "nameZh": "烈咬陆鲨",
-    "typesZh": [
-      "龙",
-      "地"
     ]
   },
   {
@@ -5321,10 +3331,6 @@
     "name": "munchlax",
     "types": [
       "normal"
-    ],
-    "nameZh": "小卡比兽",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5332,10 +3338,6 @@
     "name": "riolu",
     "types": [
       "fighting"
-    ],
-    "nameZh": "利欧路",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -5344,11 +3346,6 @@
     "types": [
       "fighting",
       "steel"
-    ],
-    "nameZh": "路卡利欧",
-    "typesZh": [
-      "斗",
-      "钢"
     ]
   },
   {
@@ -5356,10 +3353,6 @@
     "name": "hippopotas",
     "types": [
       "ground"
-    ],
-    "nameZh": "怪河马",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -5367,10 +3360,6 @@
     "name": "hippowdon",
     "types": [
       "ground"
-    ],
-    "nameZh": "河马兽",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -5379,11 +3368,6 @@
     "types": [
       "poison",
       "bug"
-    ],
-    "nameZh": "紫天蝎",
-    "typesZh": [
-      "毒",
-      "虫"
     ]
   },
   {
@@ -5392,11 +3376,6 @@
     "types": [
       "poison",
       "dark"
-    ],
-    "nameZh": "龙王蝎",
-    "typesZh": [
-      "毒",
-      "恶"
     ]
   },
   {
@@ -5405,11 +3384,6 @@
     "types": [
       "poison",
       "fighting"
-    ],
-    "nameZh": "不良蛙",
-    "typesZh": [
-      "毒",
-      "斗"
     ]
   },
   {
@@ -5418,11 +3392,6 @@
     "types": [
       "poison",
       "fighting"
-    ],
-    "nameZh": "毒骷蛙",
-    "typesZh": [
-      "毒",
-      "斗"
     ]
   },
   {
@@ -5430,10 +3399,6 @@
     "name": "carnivine",
     "types": [
       "grass"
-    ],
-    "nameZh": "尖牙笼",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5441,10 +3406,6 @@
     "name": "finneon",
     "types": [
       "water"
-    ],
-    "nameZh": "萤光鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5452,10 +3413,6 @@
     "name": "lumineon",
     "types": [
       "water"
-    ],
-    "nameZh": "霓虹鱼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5464,11 +3421,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "小球飞鱼",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -5477,11 +3429,6 @@
     "types": [
       "grass",
       "ice"
-    ],
-    "nameZh": "雪笠怪",
-    "typesZh": [
-      "草",
-      "冰"
     ]
   },
   {
@@ -5490,11 +3437,6 @@
     "types": [
       "grass",
       "ice"
-    ],
-    "nameZh": "暴雪王",
-    "typesZh": [
-      "草",
-      "冰"
     ]
   },
   {
@@ -5503,11 +3445,6 @@
     "types": [
       "dark",
       "ice"
-    ],
-    "nameZh": "玛狃拉",
-    "typesZh": [
-      "恶",
-      "冰"
     ]
   },
   {
@@ -5516,11 +3453,6 @@
     "types": [
       "electric",
       "steel"
-    ],
-    "nameZh": "自爆磁怪",
-    "typesZh": [
-      "电",
-      "钢"
     ]
   },
   {
@@ -5528,10 +3460,6 @@
     "name": "lickilicky",
     "types": [
       "normal"
-    ],
-    "nameZh": "大舌舔",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5540,11 +3468,6 @@
     "types": [
       "ground",
       "rock"
-    ],
-    "nameZh": "超铁暴龙",
-    "typesZh": [
-      "地",
-      "岩"
     ]
   },
   {
@@ -5552,10 +3475,6 @@
     "name": "tangrowth",
     "types": [
       "grass"
-    ],
-    "nameZh": "巨蔓藤",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5563,10 +3482,6 @@
     "name": "electivire",
     "types": [
       "electric"
-    ],
-    "nameZh": "电击魔兽",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -5574,10 +3489,6 @@
     "name": "magmortar",
     "types": [
       "fire"
-    ],
-    "nameZh": "鸭嘴焰龙",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -5586,11 +3497,6 @@
     "types": [
       "fairy",
       "flying"
-    ],
-    "nameZh": "波克基斯",
-    "typesZh": [
-      "妖",
-      "飞"
     ]
   },
   {
@@ -5599,11 +3505,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "nameZh": "梅卡阳玛",
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -5611,10 +3512,6 @@
     "name": "leafeon",
     "types": [
       "grass"
-    ],
-    "nameZh": "叶精灵",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5622,10 +3519,6 @@
     "name": "glaceon",
     "types": [
       "ice"
-    ],
-    "nameZh": "冰精灵",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -5634,11 +3527,6 @@
     "types": [
       "ground",
       "flying"
-    ],
-    "nameZh": "天蝎王",
-    "typesZh": [
-      "地",
-      "飞"
     ]
   },
   {
@@ -5647,11 +3535,6 @@
     "types": [
       "ice",
       "ground"
-    ],
-    "nameZh": "象牙猪",
-    "typesZh": [
-      "冰",
-      "地"
     ]
   },
   {
@@ -5659,10 +3542,6 @@
     "name": "porygon-z",
     "types": [
       "normal"
-    ],
-    "nameZh": "3D龙Z",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5671,11 +3550,6 @@
     "types": [
       "psychic",
       "fighting"
-    ],
-    "nameZh": "艾路雷朵",
-    "typesZh": [
-      "超",
-      "斗"
     ]
   },
   {
@@ -5684,11 +3558,6 @@
     "types": [
       "rock",
       "steel"
-    ],
-    "nameZh": "大朝北鼻",
-    "typesZh": [
-      "岩",
-      "钢"
     ]
   },
   {
@@ -5696,10 +3565,6 @@
     "name": "dusknoir",
     "types": [
       "ghost"
-    ],
-    "nameZh": "夜黑魔人",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -5708,11 +3573,6 @@
     "types": [
       "ice",
       "ghost"
-    ],
-    "nameZh": "雪妖女",
-    "typesZh": [
-      "冰",
-      "鬼"
     ]
   },
   {
@@ -5721,11 +3581,6 @@
     "types": [
       "electric",
       "ghost"
-    ],
-    "nameZh": "洛托姆",
-    "typesZh": [
-      "电",
-      "鬼"
     ]
   },
   {
@@ -5733,10 +3588,6 @@
     "name": "uxie",
     "types": [
       "psychic"
-    ],
-    "nameZh": "由克希",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -5744,10 +3595,6 @@
     "name": "mesprit",
     "types": [
       "psychic"
-    ],
-    "nameZh": "艾姆利多",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -5755,10 +3602,6 @@
     "name": "azelf",
     "types": [
       "psychic"
-    ],
-    "nameZh": "亚克诺姆",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -5767,11 +3610,6 @@
     "types": [
       "steel",
       "dragon"
-    ],
-    "nameZh": "帝牙卢卡",
-    "typesZh": [
-      "钢",
-      "龙"
     ]
   },
   {
@@ -5780,11 +3618,6 @@
     "types": [
       "water",
       "dragon"
-    ],
-    "nameZh": "帕路奇犽",
-    "typesZh": [
-      "水",
-      "龙"
     ]
   },
   {
@@ -5793,11 +3626,6 @@
     "types": [
       "fire",
       "steel"
-    ],
-    "nameZh": "席多蓝恩",
-    "typesZh": [
-      "炎",
-      "钢"
     ]
   },
   {
@@ -5805,10 +3633,6 @@
     "name": "regigigas",
     "types": [
       "normal"
-    ],
-    "nameZh": "雷吉奇卡斯",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5817,10 +3641,6 @@
     "types": [
       "ghost",
       "dragon"
-    ],
-    "typesZh": [
-      "鬼",
-      "龙"
     ]
   },
   {
@@ -5828,10 +3648,6 @@
     "name": "cresselia",
     "types": [
       "psychic"
-    ],
-    "nameZh": "克雷色利亚",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -5839,10 +3655,6 @@
     "name": "phione",
     "types": [
       "water"
-    ],
-    "nameZh": "霏欧纳",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5850,10 +3662,6 @@
     "name": "manaphy",
     "types": [
       "water"
-    ],
-    "nameZh": "玛纳霏",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5861,10 +3669,6 @@
     "name": "darkrai",
     "types": [
       "dark"
-    ],
-    "nameZh": "达克莱伊",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -5872,9 +3676,6 @@
     "name": "shaymin-land",
     "types": [
       "grass"
-    ],
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5882,10 +3683,6 @@
     "name": "arceus",
     "types": [
       "normal"
-    ],
-    "nameZh": "阿尔宙斯",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -5894,11 +3691,6 @@
     "types": [
       "psychic",
       "fire"
-    ],
-    "nameZh": "比克提尼",
-    "typesZh": [
-      "超",
-      "炎"
     ]
   },
   {
@@ -5906,10 +3698,6 @@
     "name": "snivy",
     "types": [
       "grass"
-    ],
-    "nameZh": "藤藤蛇",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5917,10 +3705,6 @@
     "name": "servine",
     "types": [
       "grass"
-    ],
-    "nameZh": "青藤蛇",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5928,10 +3712,6 @@
     "name": "serperior",
     "types": [
       "grass"
-    ],
-    "nameZh": "君主蛇",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -5939,10 +3719,6 @@
     "name": "tepig",
     "types": [
       "fire"
-    ],
-    "nameZh": "暖暖猪",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -5951,11 +3727,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "nameZh": "炒炒猪",
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -5964,11 +3735,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "nameZh": "炎武王",
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -5976,10 +3742,6 @@
     "name": "oshawott",
     "types": [
       "water"
-    ],
-    "nameZh": "水水獭",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5987,10 +3749,6 @@
     "name": "dewott",
     "types": [
       "water"
-    ],
-    "nameZh": "双刃丸",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -5998,10 +3756,6 @@
     "name": "samurott",
     "types": [
       "water"
-    ],
-    "nameZh": "大剑鬼",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -6009,10 +3763,6 @@
     "name": "patrat",
     "types": [
       "normal"
-    ],
-    "nameZh": "探探鼠",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6020,10 +3770,6 @@
     "name": "watchog",
     "types": [
       "normal"
-    ],
-    "nameZh": "步哨鼠",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6031,10 +3777,6 @@
     "name": "lillipup",
     "types": [
       "normal"
-    ],
-    "nameZh": "小约克",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6042,10 +3784,6 @@
     "name": "herdier",
     "types": [
       "normal"
-    ],
-    "nameZh": "哈约克",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6053,10 +3791,6 @@
     "name": "stoutland",
     "types": [
       "normal"
-    ],
-    "nameZh": "长毛狗",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6064,10 +3798,6 @@
     "name": "purrloin",
     "types": [
       "dark"
-    ],
-    "nameZh": "扒手猫",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -6075,10 +3805,6 @@
     "name": "liepard",
     "types": [
       "dark"
-    ],
-    "nameZh": "酷豹",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -6086,10 +3812,6 @@
     "name": "pansage",
     "types": [
       "grass"
-    ],
-    "nameZh": "花椰猴",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -6097,10 +3819,6 @@
     "name": "simisage",
     "types": [
       "grass"
-    ],
-    "nameZh": "花椰猿",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -6108,10 +3826,6 @@
     "name": "pansear",
     "types": [
       "fire"
-    ],
-    "nameZh": "爆香猴",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -6119,10 +3833,6 @@
     "name": "simisear",
     "types": [
       "fire"
-    ],
-    "nameZh": "爆香猿",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -6130,10 +3840,6 @@
     "name": "panpour",
     "types": [
       "water"
-    ],
-    "nameZh": "冷水猴",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -6141,10 +3847,6 @@
     "name": "simipour",
     "types": [
       "water"
-    ],
-    "nameZh": "冷水猿",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -6152,10 +3854,6 @@
     "name": "munna",
     "types": [
       "psychic"
-    ],
-    "nameZh": "食梦梦",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6163,10 +3861,6 @@
     "name": "musharna",
     "types": [
       "psychic"
-    ],
-    "nameZh": "梦梦蚀",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6175,11 +3869,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "豆豆鸽",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -6188,11 +3877,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "波波鸽",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -6201,11 +3885,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "轰隆雉鸡",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -6213,10 +3892,6 @@
     "name": "blitzle",
     "types": [
       "electric"
-    ],
-    "nameZh": "斑斑马",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -6224,10 +3899,6 @@
     "name": "zebstrika",
     "types": [
       "electric"
-    ],
-    "nameZh": "雷电斑马",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -6235,10 +3906,6 @@
     "name": "roggenrola",
     "types": [
       "rock"
-    ],
-    "nameZh": "石丸子",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -6246,10 +3913,6 @@
     "name": "boldore",
     "types": [
       "rock"
-    ],
-    "nameZh": "地幔岩",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -6257,10 +3920,6 @@
     "name": "gigalith",
     "types": [
       "rock"
-    ],
-    "nameZh": "庞岩怪",
-    "typesZh": [
-      "岩"
     ]
   },
   {
@@ -6269,11 +3928,6 @@
     "types": [
       "psychic",
       "flying"
-    ],
-    "nameZh": "滚滚蝙蝠",
-    "typesZh": [
-      "超",
-      "飞"
     ]
   },
   {
@@ -6282,11 +3936,6 @@
     "types": [
       "psychic",
       "flying"
-    ],
-    "nameZh": "心蝙蝠",
-    "typesZh": [
-      "超",
-      "飞"
     ]
   },
   {
@@ -6294,10 +3943,6 @@
     "name": "drilbur",
     "types": [
       "ground"
-    ],
-    "nameZh": "螺钉地鼠",
-    "typesZh": [
-      "地"
     ]
   },
   {
@@ -6306,11 +3951,6 @@
     "types": [
       "ground",
       "steel"
-    ],
-    "nameZh": "龙头地鼠",
-    "typesZh": [
-      "地",
-      "钢"
     ]
   },
   {
@@ -6318,10 +3958,6 @@
     "name": "audino",
     "types": [
       "normal"
-    ],
-    "nameZh": "差不多娃娃",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6329,10 +3965,6 @@
     "name": "timburr",
     "types": [
       "fighting"
-    ],
-    "nameZh": "搬运小匠",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -6340,10 +3972,6 @@
     "name": "gurdurr",
     "types": [
       "fighting"
-    ],
-    "nameZh": "铁骨土人",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -6351,10 +3979,6 @@
     "name": "conkeldurr",
     "types": [
       "fighting"
-    ],
-    "nameZh": "修缮老头",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -6362,10 +3986,6 @@
     "name": "tympole",
     "types": [
       "water"
-    ],
-    "nameZh": "圆蝌蚪",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -6374,11 +3994,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "蓝蟾蜍",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -6387,11 +4002,6 @@
     "types": [
       "water",
       "ground"
-    ],
-    "nameZh": "蟾蜍王",
-    "typesZh": [
-      "水",
-      "地"
     ]
   },
   {
@@ -6399,10 +4009,6 @@
     "name": "throh",
     "types": [
       "fighting"
-    ],
-    "nameZh": "投射鬼",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -6410,10 +4016,6 @@
     "name": "sawk",
     "types": [
       "fighting"
-    ],
-    "nameZh": "打击鬼",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -6422,11 +4024,6 @@
     "types": [
       "bug",
       "grass"
-    ],
-    "nameZh": "虫宝包",
-    "typesZh": [
-      "虫",
-      "草"
     ]
   },
   {
@@ -6435,11 +4032,6 @@
     "types": [
       "bug",
       "grass"
-    ],
-    "nameZh": "宝包茧",
-    "typesZh": [
-      "虫",
-      "草"
     ]
   },
   {
@@ -6448,11 +4040,6 @@
     "types": [
       "bug",
       "grass"
-    ],
-    "nameZh": "保母虫",
-    "typesZh": [
-      "虫",
-      "草"
     ]
   },
   {
@@ -6461,11 +4048,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "百足蜈蚣",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -6474,11 +4056,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "车轮球",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -6487,11 +4064,6 @@
     "types": [
       "bug",
       "poison"
-    ],
-    "nameZh": "蜈蚣王",
-    "typesZh": [
-      "虫",
-      "毒"
     ]
   },
   {
@@ -6500,11 +4072,6 @@
     "types": [
       "grass",
       "fairy"
-    ],
-    "nameZh": "木棉球",
-    "typesZh": [
-      "草",
-      "妖"
     ]
   },
   {
@@ -6513,11 +4080,6 @@
     "types": [
       "grass",
       "fairy"
-    ],
-    "nameZh": "风妖精",
-    "typesZh": [
-      "草",
-      "妖"
     ]
   },
   {
@@ -6525,10 +4087,6 @@
     "name": "petilil",
     "types": [
       "grass"
-    ],
-    "nameZh": "百合根娃娃",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -6536,10 +4094,6 @@
     "name": "lilligant",
     "types": [
       "grass"
-    ],
-    "nameZh": "裙儿小姐",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -6547,9 +4101,6 @@
     "name": "basculin-red-striped",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -6558,11 +4109,6 @@
     "types": [
       "ground",
       "dark"
-    ],
-    "nameZh": "黑眼鳄",
-    "typesZh": [
-      "地",
-      "恶"
     ]
   },
   {
@@ -6571,11 +4117,6 @@
     "types": [
       "ground",
       "dark"
-    ],
-    "nameZh": "混混鳄",
-    "typesZh": [
-      "地",
-      "恶"
     ]
   },
   {
@@ -6584,11 +4125,6 @@
     "types": [
       "ground",
       "dark"
-    ],
-    "nameZh": "流氓鳄",
-    "typesZh": [
-      "地",
-      "恶"
     ]
   },
   {
@@ -6596,10 +4132,6 @@
     "name": "darumaka",
     "types": [
       "fire"
-    ],
-    "nameZh": "火红不倒翁",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -6607,9 +4139,6 @@
     "name": "darmanitan-standard",
     "types": [
       "fire"
-    ],
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -6617,10 +4146,6 @@
     "name": "maractus",
     "types": [
       "grass"
-    ],
-    "nameZh": "街头沙铃",
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -6629,11 +4154,6 @@
     "types": [
       "bug",
       "rock"
-    ],
-    "nameZh": "石居蟹",
-    "typesZh": [
-      "虫",
-      "岩"
     ]
   },
   {
@@ -6642,11 +4162,6 @@
     "types": [
       "bug",
       "rock"
-    ],
-    "nameZh": "岩殿居蟹",
-    "typesZh": [
-      "虫",
-      "岩"
     ]
   },
   {
@@ -6655,11 +4170,6 @@
     "types": [
       "dark",
       "fighting"
-    ],
-    "nameZh": "滑头小子",
-    "typesZh": [
-      "恶",
-      "斗"
     ]
   },
   {
@@ -6668,11 +4178,6 @@
     "types": [
       "dark",
       "fighting"
-    ],
-    "nameZh": "头巾混混",
-    "typesZh": [
-      "恶",
-      "斗"
     ]
   },
   {
@@ -6681,11 +4186,6 @@
     "types": [
       "psychic",
       "flying"
-    ],
-    "nameZh": "象征鸟",
-    "typesZh": [
-      "超",
-      "飞"
     ]
   },
   {
@@ -6693,10 +4193,6 @@
     "name": "yamask",
     "types": [
       "ghost"
-    ],
-    "nameZh": "哭哭面具",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -6704,10 +4200,6 @@
     "name": "cofagrigus",
     "types": [
       "ghost"
-    ],
-    "nameZh": "死神棺",
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -6716,11 +4208,6 @@
     "types": [
       "water",
       "rock"
-    ],
-    "nameZh": "原盖海龟",
-    "typesZh": [
-      "水",
-      "岩"
     ]
   },
   {
@@ -6729,11 +4216,6 @@
     "types": [
       "water",
       "rock"
-    ],
-    "nameZh": "肋骨海龟",
-    "typesZh": [
-      "水",
-      "岩"
     ]
   },
   {
@@ -6742,11 +4224,6 @@
     "types": [
       "rock",
       "flying"
-    ],
-    "nameZh": "始祖小鸟",
-    "typesZh": [
-      "岩",
-      "飞"
     ]
   },
   {
@@ -6755,11 +4232,6 @@
     "types": [
       "rock",
       "flying"
-    ],
-    "nameZh": "始祖大鸟",
-    "typesZh": [
-      "岩",
-      "飞"
     ]
   },
   {
@@ -6767,10 +4239,6 @@
     "name": "trubbish",
     "types": [
       "poison"
-    ],
-    "nameZh": "破破袋",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -6778,10 +4246,6 @@
     "name": "garbodor",
     "types": [
       "poison"
-    ],
-    "nameZh": "灰尘山",
-    "typesZh": [
-      "毒"
     ]
   },
   {
@@ -6789,10 +4253,6 @@
     "name": "zorua",
     "types": [
       "dark"
-    ],
-    "nameZh": "索罗亚",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -6800,10 +4260,6 @@
     "name": "zoroark",
     "types": [
       "dark"
-    ],
-    "nameZh": "索罗亚克",
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -6811,10 +4267,6 @@
     "name": "minccino",
     "types": [
       "normal"
-    ],
-    "nameZh": "泡沫栗鼠",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6822,10 +4274,6 @@
     "name": "cinccino",
     "types": [
       "normal"
-    ],
-    "nameZh": "奇诺栗鼠",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -6833,10 +4281,6 @@
     "name": "gothita",
     "types": [
       "psychic"
-    ],
-    "nameZh": "哥德宝宝",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6844,10 +4288,6 @@
     "name": "gothorita",
     "types": [
       "psychic"
-    ],
-    "nameZh": "哥德小童",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6855,10 +4295,6 @@
     "name": "gothitelle",
     "types": [
       "psychic"
-    ],
-    "nameZh": "哥德小姐",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6866,10 +4302,6 @@
     "name": "solosis",
     "types": [
       "psychic"
-    ],
-    "nameZh": "单卵细胞球",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6877,10 +4309,6 @@
     "name": "duosion",
     "types": [
       "psychic"
-    ],
-    "nameZh": "双卵细胞球",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6888,10 +4316,6 @@
     "name": "reuniclus",
     "types": [
       "psychic"
-    ],
-    "nameZh": "人造细胞卵",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -6900,11 +4324,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "鸭宝宝",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -6913,11 +4332,6 @@
     "types": [
       "water",
       "flying"
-    ],
-    "nameZh": "首席天鹅",
-    "typesZh": [
-      "水",
-      "飞"
     ]
   },
   {
@@ -6925,10 +4339,6 @@
     "name": "vanillite",
     "types": [
       "ice"
-    ],
-    "nameZh": "迷你冰",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -6936,10 +4346,6 @@
     "name": "vanillish",
     "types": [
       "ice"
-    ],
-    "nameZh": "多多冰",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -6947,10 +4353,6 @@
     "name": "vanilluxe",
     "types": [
       "ice"
-    ],
-    "nameZh": "双倍多多冰",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -6959,11 +4361,6 @@
     "types": [
       "normal",
       "grass"
-    ],
-    "nameZh": "四季鹿",
-    "typesZh": [
-      "普",
-      "草"
     ]
   },
   {
@@ -6972,11 +4369,6 @@
     "types": [
       "normal",
       "grass"
-    ],
-    "nameZh": "芽吹鹿",
-    "typesZh": [
-      "普",
-      "草"
     ]
   },
   {
@@ -6985,11 +4377,6 @@
     "types": [
       "electric",
       "flying"
-    ],
-    "nameZh": "导电飞鼠",
-    "typesZh": [
-      "电",
-      "飞"
     ]
   },
   {
@@ -6997,10 +4384,6 @@
     "name": "karrablast",
     "types": [
       "bug"
-    ],
-    "nameZh": "盖盖虫",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -7009,11 +4392,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "nameZh": "骑士蜗牛",
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -7022,11 +4400,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "宝贝球菇",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -7035,11 +4408,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "nameZh": "暴露菇",
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -7048,11 +4416,6 @@
     "types": [
       "water",
       "ghost"
-    ],
-    "nameZh": "轻飘飘",
-    "typesZh": [
-      "水",
-      "鬼"
     ]
   },
   {
@@ -7061,11 +4424,6 @@
     "types": [
       "water",
       "ghost"
-    ],
-    "nameZh": "胖嘟嘟",
-    "typesZh": [
-      "水",
-      "鬼"
     ]
   },
   {
@@ -7073,10 +4431,6 @@
     "name": "alomomola",
     "types": [
       "water"
-    ],
-    "nameZh": "保母曼波",
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -7085,11 +4439,6 @@
     "types": [
       "bug",
       "electric"
-    ],
-    "nameZh": "电电虫",
-    "typesZh": [
-      "虫",
-      "电"
     ]
   },
   {
@@ -7098,11 +4447,6 @@
     "types": [
       "bug",
       "electric"
-    ],
-    "nameZh": "电蜘蛛",
-    "typesZh": [
-      "虫",
-      "电"
     ]
   },
   {
@@ -7111,11 +4455,6 @@
     "types": [
       "grass",
       "steel"
-    ],
-    "nameZh": "种子铁球",
-    "typesZh": [
-      "草",
-      "钢"
     ]
   },
   {
@@ -7124,11 +4463,6 @@
     "types": [
       "grass",
       "steel"
-    ],
-    "nameZh": "坚果哑铃",
-    "typesZh": [
-      "草",
-      "钢"
     ]
   },
   {
@@ -7136,10 +4470,6 @@
     "name": "klink",
     "types": [
       "steel"
-    ],
-    "nameZh": "齿轮儿",
-    "typesZh": [
-      "钢"
     ]
   },
   {
@@ -7147,10 +4477,6 @@
     "name": "klang",
     "types": [
       "steel"
-    ],
-    "nameZh": "齿轮组",
-    "typesZh": [
-      "钢"
     ]
   },
   {
@@ -7158,10 +4484,6 @@
     "name": "klinklang",
     "types": [
       "steel"
-    ],
-    "nameZh": "齿轮怪",
-    "typesZh": [
-      "钢"
     ]
   },
   {
@@ -7169,10 +4491,6 @@
     "name": "tynamo",
     "types": [
       "electric"
-    ],
-    "nameZh": "麻麻小鱼",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -7180,10 +4498,6 @@
     "name": "eelektrik",
     "types": [
       "electric"
-    ],
-    "nameZh": "麻麻鳗",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -7191,10 +4505,6 @@
     "name": "eelektross",
     "types": [
       "electric"
-    ],
-    "nameZh": "麻麻鳗鱼王",
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -7202,10 +4512,6 @@
     "name": "elgyem",
     "types": [
       "psychic"
-    ],
-    "nameZh": "小灰怪",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -7213,10 +4519,6 @@
     "name": "beheeyem",
     "types": [
       "psychic"
-    ],
-    "nameZh": "大宇怪",
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -7225,11 +4527,6 @@
     "types": [
       "ghost",
       "fire"
-    ],
-    "nameZh": "烛光灵",
-    "typesZh": [
-      "鬼",
-      "炎"
     ]
   },
   {
@@ -7238,11 +4535,6 @@
     "types": [
       "ghost",
       "fire"
-    ],
-    "nameZh": "灯火幽灵",
-    "typesZh": [
-      "鬼",
-      "炎"
     ]
   },
   {
@@ -7251,11 +4543,6 @@
     "types": [
       "ghost",
       "fire"
-    ],
-    "nameZh": "水晶灯火灵",
-    "typesZh": [
-      "鬼",
-      "炎"
     ]
   },
   {
@@ -7263,10 +4550,6 @@
     "name": "axew",
     "types": [
       "dragon"
-    ],
-    "nameZh": "牙牙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -7274,10 +4557,6 @@
     "name": "fraxure",
     "types": [
       "dragon"
-    ],
-    "nameZh": "斧牙龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -7285,10 +4564,6 @@
     "name": "haxorus",
     "types": [
       "dragon"
-    ],
-    "nameZh": "双斧战龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -7296,10 +4571,6 @@
     "name": "cubchoo",
     "types": [
       "ice"
-    ],
-    "nameZh": "喷嚏熊",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -7307,10 +4578,6 @@
     "name": "beartic",
     "types": [
       "ice"
-    ],
-    "nameZh": "冻原熊",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -7318,10 +4585,6 @@
     "name": "cryogonal",
     "types": [
       "ice"
-    ],
-    "nameZh": "几何雪花",
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -7329,10 +4592,6 @@
     "name": "shelmet",
     "types": [
       "bug"
-    ],
-    "nameZh": "小嘴蜗",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -7340,10 +4599,6 @@
     "name": "accelgor",
     "types": [
       "bug"
-    ],
-    "nameZh": "敏捷虫",
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -7352,11 +4607,6 @@
     "types": [
       "ground",
       "electric"
-    ],
-    "nameZh": "泥巴鱼",
-    "typesZh": [
-      "地",
-      "电"
     ]
   },
   {
@@ -7364,10 +4614,6 @@
     "name": "mienfoo",
     "types": [
       "fighting"
-    ],
-    "nameZh": "功夫鼬",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -7375,10 +4621,6 @@
     "name": "mienshao",
     "types": [
       "fighting"
-    ],
-    "nameZh": "师父鼬",
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -7386,10 +4628,6 @@
     "name": "druddigon",
     "types": [
       "dragon"
-    ],
-    "nameZh": "赤面龙",
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -7398,11 +4636,6 @@
     "types": [
       "ground",
       "ghost"
-    ],
-    "nameZh": "泥偶小人",
-    "typesZh": [
-      "地",
-      "鬼"
     ]
   },
   {
@@ -7411,11 +4644,6 @@
     "types": [
       "ground",
       "ghost"
-    ],
-    "nameZh": "泥偶巨人",
-    "typesZh": [
-      "地",
-      "鬼"
     ]
   },
   {
@@ -7424,11 +4652,6 @@
     "types": [
       "dark",
       "steel"
-    ],
-    "nameZh": "驹刀小兵",
-    "typesZh": [
-      "恶",
-      "钢"
     ]
   },
   {
@@ -7437,11 +4660,6 @@
     "types": [
       "dark",
       "steel"
-    ],
-    "nameZh": "劈斩司令",
-    "typesZh": [
-      "恶",
-      "钢"
     ]
   },
   {
@@ -7449,10 +4667,6 @@
     "name": "bouffalant",
     "types": [
       "normal"
-    ],
-    "nameZh": "爆爆头水牛",
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -7461,11 +4675,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "毛头小鹰",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -7474,11 +4683,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "nameZh": "勇士鹰",
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -7487,11 +4691,6 @@
     "types": [
       "dark",
       "flying"
-    ],
-    "nameZh": "秃鹰小子",
-    "typesZh": [
-      "恶",
-      "飞"
     ]
   },
   {
@@ -7500,11 +4699,6 @@
     "types": [
       "dark",
       "flying"
-    ],
-    "nameZh": "秃鹰娜",
-    "typesZh": [
-      "恶",
-      "飞"
     ]
   },
   {
@@ -7512,10 +4706,6 @@
     "name": "heatmor",
     "types": [
       "fire"
-    ],
-    "nameZh": "食蚁炉",
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -7524,11 +4714,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "nameZh": "铁蚁",
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -7537,11 +4722,6 @@
     "types": [
       "dark",
       "dragon"
-    ],
-    "nameZh": "单首龙",
-    "typesZh": [
-      "恶",
-      "龙"
     ]
   },
   {
@@ -7550,11 +4730,6 @@
     "types": [
       "dark",
       "dragon"
-    ],
-    "nameZh": "双头龙",
-    "typesZh": [
-      "恶",
-      "龙"
     ]
   },
   {
@@ -7563,11 +4738,6 @@
     "types": [
       "dark",
       "dragon"
-    ],
-    "nameZh": "三头龙",
-    "typesZh": [
-      "恶",
-      "龙"
     ]
   },
   {
@@ -7576,11 +4746,6 @@
     "types": [
       "bug",
       "fire"
-    ],
-    "nameZh": "燃烧虫",
-    "typesZh": [
-      "虫",
-      "炎"
     ]
   },
   {
@@ -7589,11 +4754,6 @@
     "types": [
       "bug",
       "fire"
-    ],
-    "nameZh": "火神虫",
-    "typesZh": [
-      "虫",
-      "炎"
     ]
   },
   {
@@ -7602,11 +4762,6 @@
     "types": [
       "steel",
       "fighting"
-    ],
-    "nameZh": "勾帕路翁",
-    "typesZh": [
-      "钢",
-      "斗"
     ]
   },
   {
@@ -7615,11 +4770,6 @@
     "types": [
       "rock",
       "fighting"
-    ],
-    "nameZh": "代拉基翁",
-    "typesZh": [
-      "岩",
-      "斗"
     ]
   },
   {
@@ -7628,11 +4778,6 @@
     "types": [
       "grass",
       "fighting"
-    ],
-    "nameZh": "毕力吉翁",
-    "typesZh": [
-      "草",
-      "斗"
     ]
   },
   {
@@ -7640,9 +4785,6 @@
     "name": "tornadus-incarnate",
     "types": [
       "flying"
-    ],
-    "typesZh": [
-      "飞"
     ]
   },
   {
@@ -7651,10 +4793,6 @@
     "types": [
       "electric",
       "flying"
-    ],
-    "typesZh": [
-      "电",
-      "飞"
     ]
   },
   {
@@ -7663,11 +4801,6 @@
     "types": [
       "dragon",
       "fire"
-    ],
-    "nameZh": "雷希拉姆",
-    "typesZh": [
-      "龙",
-      "炎"
     ]
   },
   {
@@ -7676,11 +4809,6 @@
     "types": [
       "dragon",
       "electric"
-    ],
-    "nameZh": "捷克罗姆",
-    "typesZh": [
-      "龙",
-      "电"
     ]
   },
   {
@@ -7689,10 +4817,6 @@
     "types": [
       "ground",
       "flying"
-    ],
-    "typesZh": [
-      "地",
-      "飞"
     ]
   },
   {
@@ -7701,11 +4825,6 @@
     "types": [
       "dragon",
       "ice"
-    ],
-    "nameZh": "酋雷姆",
-    "typesZh": [
-      "龙",
-      "冰"
     ]
   },
   {
@@ -7714,10 +4833,6 @@
     "types": [
       "water",
       "fighting"
-    ],
-    "typesZh": [
-      "水",
-      "斗"
     ]
   },
   {
@@ -7726,10 +4841,6 @@
     "types": [
       "normal",
       "psychic"
-    ],
-    "typesZh": [
-      "普",
-      "超"
     ]
   },
   {
@@ -7738,11 +4849,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "nameZh": "盖诺赛克特",
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -7750,9 +4856,6 @@
     "name": "chespin",
     "types": [
       "grass"
-    ],
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -7760,9 +4863,6 @@
     "name": "quilladin",
     "types": [
       "grass"
-    ],
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -7771,10 +4871,6 @@
     "types": [
       "grass",
       "fighting"
-    ],
-    "typesZh": [
-      "草",
-      "斗"
     ]
   },
   {
@@ -7782,9 +4878,6 @@
     "name": "fennekin",
     "types": [
       "fire"
-    ],
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -7792,9 +4885,6 @@
     "name": "braixen",
     "types": [
       "fire"
-    ],
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -7803,10 +4893,6 @@
     "types": [
       "fire",
       "psychic"
-    ],
-    "typesZh": [
-      "炎",
-      "超"
     ]
   },
   {
@@ -7814,9 +4900,6 @@
     "name": "froakie",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -7824,9 +4907,6 @@
     "name": "frogadier",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -7835,10 +4915,6 @@
     "types": [
       "water",
       "dark"
-    ],
-    "typesZh": [
-      "水",
-      "恶"
     ]
   },
   {
@@ -7846,9 +4922,6 @@
     "name": "bunnelby",
     "types": [
       "normal"
-    ],
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -7857,10 +4930,6 @@
     "types": [
       "normal",
       "ground"
-    ],
-    "typesZh": [
-      "普",
-      "地"
     ]
   },
   {
@@ -7869,10 +4938,6 @@
     "types": [
       "normal",
       "flying"
-    ],
-    "typesZh": [
-      "普",
-      "飞"
     ]
   },
   {
@@ -7881,10 +4946,6 @@
     "types": [
       "fire",
       "flying"
-    ],
-    "typesZh": [
-      "炎",
-      "飞"
     ]
   },
   {
@@ -7893,10 +4954,6 @@
     "types": [
       "fire",
       "flying"
-    ],
-    "typesZh": [
-      "炎",
-      "飞"
     ]
   },
   {
@@ -7904,9 +4961,6 @@
     "name": "scatterbug",
     "types": [
       "bug"
-    ],
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -7914,9 +4968,6 @@
     "name": "spewpa",
     "types": [
       "bug"
-    ],
-    "typesZh": [
-      "虫"
     ]
   },
   {
@@ -7925,10 +4976,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -7937,10 +4984,6 @@
     "types": [
       "fire",
       "normal"
-    ],
-    "typesZh": [
-      "炎",
-      "普"
     ]
   },
   {
@@ -7949,10 +4992,6 @@
     "types": [
       "fire",
       "normal"
-    ],
-    "typesZh": [
-      "炎",
-      "普"
     ]
   },
   {
@@ -7960,9 +4999,6 @@
     "name": "flabebe",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -7970,9 +5006,6 @@
     "name": "floette",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -7980,9 +5013,6 @@
     "name": "florges",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -7990,9 +5020,6 @@
     "name": "skiddo",
     "types": [
       "grass"
-    ],
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -8000,9 +5027,6 @@
     "name": "gogoat",
     "types": [
       "grass"
-    ],
-    "typesZh": [
-      "草"
     ]
   },
   {
@@ -8010,9 +5034,6 @@
     "name": "pancham",
     "types": [
       "fighting"
-    ],
-    "typesZh": [
-      "斗"
     ]
   },
   {
@@ -8021,10 +5042,6 @@
     "types": [
       "fighting",
       "dark"
-    ],
-    "typesZh": [
-      "斗",
-      "恶"
     ]
   },
   {
@@ -8032,9 +5049,6 @@
     "name": "furfrou",
     "types": [
       "normal"
-    ],
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -8042,9 +5056,6 @@
     "name": "espurr",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8052,9 +5063,6 @@
     "name": "meowstic-male",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8063,10 +5071,6 @@
     "types": [
       "steel",
       "ghost"
-    ],
-    "typesZh": [
-      "钢",
-      "鬼"
     ]
   },
   {
@@ -8075,10 +5079,6 @@
     "types": [
       "steel",
       "ghost"
-    ],
-    "typesZh": [
-      "钢",
-      "鬼"
     ]
   },
   {
@@ -8087,10 +5087,6 @@
     "types": [
       "steel",
       "ghost"
-    ],
-    "typesZh": [
-      "钢",
-      "鬼"
     ]
   },
   {
@@ -8098,9 +5094,6 @@
     "name": "spritzee",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -8108,9 +5101,6 @@
     "name": "aromatisse",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -8118,9 +5108,6 @@
     "name": "swirlix",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -8128,9 +5115,6 @@
     "name": "slurpuff",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -8139,10 +5123,6 @@
     "types": [
       "dark",
       "psychic"
-    ],
-    "typesZh": [
-      "恶",
-      "超"
     ]
   },
   {
@@ -8151,10 +5131,6 @@
     "types": [
       "dark",
       "psychic"
-    ],
-    "typesZh": [
-      "恶",
-      "超"
     ]
   },
   {
@@ -8163,10 +5139,6 @@
     "types": [
       "rock",
       "water"
-    ],
-    "typesZh": [
-      "岩",
-      "水"
     ]
   },
   {
@@ -8175,10 +5147,6 @@
     "types": [
       "rock",
       "water"
-    ],
-    "typesZh": [
-      "岩",
-      "水"
     ]
   },
   {
@@ -8187,10 +5155,6 @@
     "types": [
       "poison",
       "water"
-    ],
-    "typesZh": [
-      "毒",
-      "水"
     ]
   },
   {
@@ -8199,10 +5163,6 @@
     "types": [
       "poison",
       "dragon"
-    ],
-    "typesZh": [
-      "毒",
-      "龙"
     ]
   },
   {
@@ -8210,9 +5170,6 @@
     "name": "clauncher",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -8220,9 +5177,6 @@
     "name": "clawitzer",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -8231,10 +5185,6 @@
     "types": [
       "electric",
       "normal"
-    ],
-    "typesZh": [
-      "电",
-      "普"
     ]
   },
   {
@@ -8243,10 +5193,6 @@
     "types": [
       "electric",
       "normal"
-    ],
-    "typesZh": [
-      "电",
-      "普"
     ]
   },
   {
@@ -8255,10 +5201,6 @@
     "types": [
       "rock",
       "dragon"
-    ],
-    "typesZh": [
-      "岩",
-      "龙"
     ]
   },
   {
@@ -8267,10 +5209,6 @@
     "types": [
       "rock",
       "dragon"
-    ],
-    "typesZh": [
-      "岩",
-      "龙"
     ]
   },
   {
@@ -8279,10 +5217,6 @@
     "types": [
       "rock",
       "ice"
-    ],
-    "typesZh": [
-      "岩",
-      "冰"
     ]
   },
   {
@@ -8291,10 +5225,6 @@
     "types": [
       "rock",
       "ice"
-    ],
-    "typesZh": [
-      "岩",
-      "冰"
     ]
   },
   {
@@ -8302,9 +5232,6 @@
     "name": "sylveon",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -8313,10 +5240,6 @@
     "types": [
       "fighting",
       "flying"
-    ],
-    "typesZh": [
-      "斗",
-      "飞"
     ]
   },
   {
@@ -8325,10 +5248,6 @@
     "types": [
       "electric",
       "fairy"
-    ],
-    "typesZh": [
-      "电",
-      "妖"
     ]
   },
   {
@@ -8337,10 +5256,6 @@
     "types": [
       "rock",
       "fairy"
-    ],
-    "typesZh": [
-      "岩",
-      "妖"
     ]
   },
   {
@@ -8348,9 +5263,6 @@
     "name": "goomy",
     "types": [
       "dragon"
-    ],
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -8358,9 +5270,6 @@
     "name": "sliggoo",
     "types": [
       "dragon"
-    ],
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -8368,9 +5277,6 @@
     "name": "goodra",
     "types": [
       "dragon"
-    ],
-    "typesZh": [
-      "龙"
     ]
   },
   {
@@ -8379,10 +5285,6 @@
     "types": [
       "steel",
       "fairy"
-    ],
-    "typesZh": [
-      "钢",
-      "妖"
     ]
   },
   {
@@ -8391,10 +5293,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8403,10 +5301,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8415,10 +5309,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8427,10 +5317,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8438,9 +5324,6 @@
     "name": "bergmite",
     "types": [
       "ice"
-    ],
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -8448,9 +5331,6 @@
     "name": "avalugg",
     "types": [
       "ice"
-    ],
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -8459,10 +5339,6 @@
     "types": [
       "flying",
       "dragon"
-    ],
-    "typesZh": [
-      "飞",
-      "龙"
     ]
   },
   {
@@ -8471,10 +5347,6 @@
     "types": [
       "flying",
       "dragon"
-    ],
-    "typesZh": [
-      "飞",
-      "龙"
     ]
   },
   {
@@ -8482,9 +5354,6 @@
     "name": "xerneas",
     "types": [
       "fairy"
-    ],
-    "typesZh": [
-      "妖"
     ]
   },
   {
@@ -8493,10 +5362,6 @@
     "types": [
       "dark",
       "flying"
-    ],
-    "typesZh": [
-      "恶",
-      "飞"
     ]
   },
   {
@@ -8505,10 +5370,6 @@
     "types": [
       "dragon",
       "ground"
-    ],
-    "typesZh": [
-      "龙",
-      "地"
     ]
   },
   {
@@ -8516,9 +5377,6 @@
     "name": "deoxys-attack",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8526,9 +5384,6 @@
     "name": "deoxys-defense",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8536,9 +5391,6 @@
     "name": "deoxys-speed",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8547,10 +5399,6 @@
     "types": [
       "bug",
       "ground"
-    ],
-    "typesZh": [
-      "虫",
-      "地"
     ]
   },
   {
@@ -8559,10 +5407,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -8571,10 +5415,6 @@
     "types": [
       "grass",
       "flying"
-    ],
-    "typesZh": [
-      "草",
-      "飞"
     ]
   },
   {
@@ -8583,10 +5423,6 @@
     "types": [
       "ghost",
       "dragon"
-    ],
-    "typesZh": [
-      "鬼",
-      "龙"
     ]
   },
   {
@@ -8595,10 +5431,6 @@
     "types": [
       "electric",
       "fire"
-    ],
-    "typesZh": [
-      "电",
-      "炎"
     ]
   },
   {
@@ -8607,10 +5439,6 @@
     "types": [
       "electric",
       "water"
-    ],
-    "typesZh": [
-      "电",
-      "水"
     ]
   },
   {
@@ -8619,10 +5447,6 @@
     "types": [
       "electric",
       "ice"
-    ],
-    "typesZh": [
-      "电",
-      "冰"
     ]
   },
   {
@@ -8631,10 +5455,6 @@
     "types": [
       "electric",
       "flying"
-    ],
-    "typesZh": [
-      "电",
-      "飞"
     ]
   },
   {
@@ -8643,10 +5463,6 @@
     "types": [
       "electric",
       "grass"
-    ],
-    "typesZh": [
-      "电",
-      "草"
     ]
   },
   {
@@ -8654,9 +5470,6 @@
     "name": "castform-sunny",
     "types": [
       "fire"
-    ],
-    "typesZh": [
-      "炎"
     ]
   },
   {
@@ -8664,9 +5477,6 @@
     "name": "castform-rainy",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -8674,9 +5484,6 @@
     "name": "castform-snowy",
     "types": [
       "ice"
-    ],
-    "typesZh": [
-      "冰"
     ]
   },
   {
@@ -8684,9 +5491,6 @@
     "name": "basculin-blue-striped",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -8695,10 +5499,6 @@
     "types": [
       "fire",
       "psychic"
-    ],
-    "typesZh": [
-      "炎",
-      "超"
     ]
   },
   {
@@ -8707,10 +5507,6 @@
     "types": [
       "normal",
       "fighting"
-    ],
-    "typesZh": [
-      "普",
-      "斗"
     ]
   },
   {
@@ -8718,9 +5514,6 @@
     "name": "tornadus-therian",
     "types": [
       "flying"
-    ],
-    "typesZh": [
-      "飞"
     ]
   },
   {
@@ -8729,10 +5522,6 @@
     "types": [
       "electric",
       "flying"
-    ],
-    "typesZh": [
-      "电",
-      "飞"
     ]
   },
   {
@@ -8741,10 +5530,6 @@
     "types": [
       "ground",
       "flying"
-    ],
-    "typesZh": [
-      "地",
-      "飞"
     ]
   },
   {
@@ -8753,10 +5538,6 @@
     "types": [
       "dragon",
       "ice"
-    ],
-    "typesZh": [
-      "龙",
-      "冰"
     ]
   },
   {
@@ -8765,10 +5546,6 @@
     "types": [
       "dragon",
       "ice"
-    ],
-    "typesZh": [
-      "龙",
-      "冰"
     ]
   },
   {
@@ -8777,10 +5554,6 @@
     "types": [
       "water",
       "fighting"
-    ],
-    "typesZh": [
-      "水",
-      "斗"
     ]
   },
   {
@@ -8788,9 +5561,6 @@
     "name": "meowstic-female",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8799,10 +5569,6 @@
     "types": [
       "steel",
       "ghost"
-    ],
-    "typesZh": [
-      "钢",
-      "鬼"
     ]
   },
   {
@@ -8811,10 +5577,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8823,10 +5585,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8835,10 +5593,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8847,10 +5601,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8859,10 +5609,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8871,10 +5617,6 @@
     "types": [
       "ghost",
       "grass"
-    ],
-    "typesZh": [
-      "鬼",
-      "草"
     ]
   },
   {
@@ -8883,10 +5625,6 @@
     "types": [
       "grass",
       "poison"
-    ],
-    "typesZh": [
-      "草",
-      "毒"
     ]
   },
   {
@@ -8895,10 +5633,6 @@
     "types": [
       "fire",
       "dragon"
-    ],
-    "typesZh": [
-      "炎",
-      "龙"
     ]
   },
   {
@@ -8907,10 +5641,6 @@
     "types": [
       "fire",
       "flying"
-    ],
-    "typesZh": [
-      "炎",
-      "飞"
     ]
   },
   {
@@ -8918,9 +5648,6 @@
     "name": "blastoise-mega",
     "types": [
       "water"
-    ],
-    "typesZh": [
-      "水"
     ]
   },
   {
@@ -8928,9 +5655,6 @@
     "name": "alakazam-mega",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -8939,10 +5663,6 @@
     "types": [
       "ghost",
       "poison"
-    ],
-    "typesZh": [
-      "鬼",
-      "毒"
     ]
   },
   {
@@ -8950,9 +5670,6 @@
     "name": "kangaskhan-mega",
     "types": [
       "normal"
-    ],
-    "typesZh": [
-      "普"
     ]
   },
   {
@@ -8961,10 +5678,6 @@
     "types": [
       "bug",
       "flying"
-    ],
-    "typesZh": [
-      "虫",
-      "飞"
     ]
   },
   {
@@ -8973,10 +5686,6 @@
     "types": [
       "water",
       "dark"
-    ],
-    "typesZh": [
-      "水",
-      "恶"
     ]
   },
   {
@@ -8985,10 +5694,6 @@
     "types": [
       "rock",
       "flying"
-    ],
-    "typesZh": [
-      "岩",
-      "飞"
     ]
   },
   {
@@ -8997,10 +5702,6 @@
     "types": [
       "psychic",
       "fighting"
-    ],
-    "typesZh": [
-      "超",
-      "斗"
     ]
   },
   {
@@ -9008,9 +5709,6 @@
     "name": "mewtwo-mega-y",
     "types": [
       "psychic"
-    ],
-    "typesZh": [
-      "超"
     ]
   },
   {
@@ -9019,10 +5717,6 @@
     "types": [
       "electric",
       "dragon"
-    ],
-    "typesZh": [
-      "电",
-      "龙"
     ]
   },
   {
@@ -9031,10 +5725,6 @@
     "types": [
       "bug",
       "steel"
-    ],
-    "typesZh": [
-      "虫",
-      "钢"
     ]
   },
   {
@@ -9043,10 +5733,6 @@
     "types": [
       "bug",
       "fighting"
-    ],
-    "typesZh": [
-      "虫",
-      "斗"
     ]
   },
   {
@@ -9055,10 +5741,6 @@
     "types": [
       "dark",
       "fire"
-    ],
-    "typesZh": [
-      "恶",
-      "炎"
     ]
   },
   {
@@ -9067,10 +5749,6 @@
     "types": [
       "rock",
       "dark"
-    ],
-    "typesZh": [
-      "岩",
-      "恶"
     ]
   },
   {
@@ -9079,10 +5757,6 @@
     "types": [
       "fire",
       "fighting"
-    ],
-    "typesZh": [
-      "炎",
-      "斗"
     ]
   },
   {
@@ -9091,10 +5765,6 @@
     "types": [
       "psychic",
       "fairy"
-    ],
-    "typesZh": [
-      "超",
-      "妖"
     ]
   },
   {
@@ -9103,10 +5773,6 @@
     "types": [
       "steel",
       "fairy"
-    ],
-    "typesZh": [
-      "钢",
-      "妖"
     ]
   },
   {
@@ -9114,9 +5780,6 @@
     "name": "aggron-mega",
     "types": [
       "steel"
-    ],
-    "typesZh": [
-      "钢"
     ]
   },
   {
@@ -9125,10 +5788,6 @@
     "types": [
       "fighting",
       "psychic"
-    ],
-    "typesZh": [
-      "斗",
-      "超"
     ]
   },
   {
@@ -9136,9 +5795,6 @@
     "name": "manectric-mega",
     "types": [
       "electric"
-    ],
-    "typesZh": [
-      "电"
     ]
   },
   {
@@ -9146,9 +5802,6 @@
     "name": "banette-mega",
     "types": [
       "ghost"
-    ],
-    "typesZh": [
-      "鬼"
     ]
   },
   {
@@ -9156,9 +5809,6 @@
     "name": "absol-mega",
     "types": [
       "dark"
-    ],
-    "typesZh": [
-      "恶"
     ]
   },
   {
@@ -9167,10 +5817,6 @@
     "types": [
       "dragon",
       "ground"
-    ],
-    "typesZh": [
-      "龙",
-      "地"
     ]
   },
   {
@@ -9179,10 +5825,6 @@
     "types": [
       "fighting",
       "steel"
-    ],
-    "typesZh": [
-      "斗",
-      "钢"
     ]
   },
   {
@@ -9191,10 +5833,6 @@
     "types": [
       "grass",
       "ice"
-    ],
-    "typesZh": [
-      "草",
-      "冰"
     ]
   }
 ]
