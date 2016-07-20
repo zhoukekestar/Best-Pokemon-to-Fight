@@ -114,10 +114,10 @@
 <body>
   <div id='loader' class='loader' data-count='4' style='display: none;'>
     <ul>
-      <li data-src='/data/pokemon.zh.json' data-mount='pokemonZh'></li>
-      <li data-src='/data/types.zh.json' data-mount='typesZh'></li>
-      <li data-src='/data/types_chart.json' data-mount='typesChart' ></li>
-      <li data-src='/data/output.json' data-mount='pokemon' ></li>
+      <li data-src='./data/pokemon.zh.json' data-mount='pokemonZh'></li>
+      <li data-src='./data/types.zh.json' data-mount='typesZh'></li>
+      <li data-src='./data/types_chart.json' data-mount='typesChart' ></li>
+      <li data-src='./data/output.json' data-mount='pokemon' ></li>
     </ul>
   </div>
   <div id='content' style='padding-top: 60px;'>
@@ -136,7 +136,7 @@
   <script type='text/html' data-role='template' data-holder='#result' id='tmpl'>
     <div class='opponent'>
       <div class="name"><%=opponent.name%></div>
-      <img src="/_data/pokeapi/Pokemon_XY_Sprites2/<%=opponent.id%>.png" alt="">
+      <img src="/_data/pokeapi/Pokemon_XY_Sprites/<%=opponent.id%>.png" alt="">
       <ul>
         <% opponent.types.forEach(function(type){ %>
           <li><%=type%></li>
@@ -147,7 +147,7 @@
       <% list.forEach(function(li) { %>
         <li>
           <div class="pokemon">
-            <img src="/_data/pokeapi/Pokemon_XY_Sprites2/<%=li.currentPokemon.id%>.png" alt="">
+            <img src="/_data/pokeapi/Pokemon_XY_Sprites/<%=li.currentPokemon.id%>.png" alt="">
             <div class="name"><%=li.currentPokemon.name%></div>
             <ul>
               <% li.currentPokemon.types.forEach(function(type){ %>
@@ -348,6 +348,6 @@
 
     })();
   </script>
-  <script src='/lib/template.js'></script>
+  <script src='./lib/template.js'></script>
 </body>
 </html>
