@@ -155,11 +155,11 @@
     <form data-role='formJSON'>
       <div class='form-group'>
         <input list="datalistPokemon" name="opponent">
-        <input class='go btn' type='submit' value='Go'>
+        <input class='go btn' type='submit' value='战斗'>
 
-        <span class='btn add' onclick="addPokemon.show();">Add</span>
-        <span class='btn local' onclick="myPokemon.show();">Local</span>
-        <a href="./index.zh.html" class="btn">中文版</a>
+        <span class='btn add' onclick="addPokemon.show();">添加</span>
+        <span class='btn local' onclick="myPokemon.show();">我的</span>
+        <a href="./index.html" class="btn">English</a>
       </div>
     </form>
     <div id="result" class='result'></div>
@@ -168,11 +168,11 @@
 
   <script type='text/html' data-role='template' data-holder='#result' id='tmpl'>
     <div class='opponent'>
-      <div class="name"><%=opponent.name%></div>
+      <div class="name"><%=loader.pokemonZh[opponent.name]%></div>
       <img src="./data/imgs/<%=opponent.id%>.png" alt="">
       <ul>
         <% opponent.types.forEach(function(type){ %>
-          <li><%=type%></li>
+          <li><%= loader.typeZh[type] %></li>
         <% }) %>
       </ul>
     </div>
@@ -181,10 +181,10 @@
         <li data-id='<%=li.currentPokemon.id%>'>
           <div class="pokemon">
             <img class='lazy' data-src="./data/imgs/<%=li.currentPokemon.id%>.png" alt="">
-            <div class="name"><%=li.currentPokemon.name%></div>
+            <div class="name"><%=loader.pokemonZh[li.currentPokemon.name]%></div>
             <ul>
               <% li.currentPokemon.types.forEach(function(type){ %>
-                <li><%=type%></li>
+                <li><%=loader.typeZh[type]%></li>
               <% }) %>
             </ul>
           </div>
@@ -195,10 +195,10 @@
                     <% curType.reason.forEach(function(r, index) { %>
                       <tr>
                         <% if (index === 0) { %>
-                          <td rowspan="<%=curType.reason.length%>" style='width: 70px;'><%= curType.type%></td>
+                          <td rowspan="<%=curType.reason.length%>" style='width: 70px;'><%= loader.typeZh[curType.type]%></td>
                         <% } %>
 
-                        <td style="width: 70px;"><%=r.opType%></td>
+                        <td style="width: 70px;"><%=loader.typeZh[r.opType]%></td>
                         <td style="width: 30px;"><%=r.effect%></td>
                         <% if (index === 0) { %>
                           <td rowspan="<%=curType.reason.length%>"><%=curType.cpStr%></td>
@@ -297,10 +297,10 @@
 		      document.dispatchEvent(new Event('lazyload-reload'));
           console.log(result)
         } else {
-          toast('Pokemon Not Found')
+          toast('未找到该精灵')
         }
       } else {
-        toast('Please input something....')
+        toast('请输入精灵')
       }
       return null;
     }
@@ -346,16 +346,16 @@
   <!-- Add pokemon panel -->
   <div id="addPokemon">
     <form data-role='formJSON'>
-      <input list='datalistPokemon' name='key' placeholder="pokemon" style='width: 220px;'>
+      <input list='datalistPokemon' name='key' placeholder="精灵" style='width: 220px;'>
       <ul class="moves">
         <li>
-          <input list='datalistType' name='moves.' placeholder="moves type">
-          <span class="btn" onclick="this.parentNode.remove()">Del</span>
+          <input list="datalistType" name="moves." placeholder="技能属性">
+          <span class="btn" onclick="this.parentNode.remove()">删除</span>
         </li>
       </ul>
-      <a href="javascript:;" class='btn cancel'>Cancel</a>
-      <a href="javascript:;" class="btn add-moves">Add moves</a>
-      <input class='btn' type="submit" value='Done' style='    width: 85px;'>
+      <a href="javascript:;" class='btn cancel'>取消</a>
+      <a href="javascript:;" class="btn add-moves">添加技能属性</a>
+      <input class='btn' type="submit" value='完成' style='    width: 76px;'>
     </form>
 
     <script>
@@ -371,7 +371,7 @@
           if (e.target.classList.contains('add-moves')) {
 
             var li = document.createElement('li');
-            li.innerHTML = '<input list="datalistType" name="moves." placeholder="moves type"><span class="btn" onclick="this.parentNode.remove()">Del</span>'
+            li.innerHTML = '<input list="datalistType" name="moves." placeholder="技能属性"><span class="btn" onclick="this.parentNode.remove()">删除</span>'
             addPokemon.querySelector('.moves').appendChild(li)
 
           } else if (e.target.classList.contains('cancel')) {
@@ -399,7 +399,7 @@
           loader.mypokemon.push(d);
 
           localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
-          toast('Added!')
+          toast('添加完成!')
           addPokemon.hide();
 
           setTimeout(function(){
@@ -465,8 +465,9 @@
 
       }
       #addPokemon ul li span {
-        margin-left: 5px;
+        margin-left: 4px;
         vertical-align: 5%;
+        padding: 6px 9px;
       }
       #addPokemon .btn {
 
@@ -478,27 +479,28 @@
   <div id="myPokemon" onclick='this.hide()'>
     <div class="container"></div>
     <script type='text/html' data-role='template' id='tmpl-my-pokemon' data-holder='#myPokemon .container'>
-      <p>My Pokemon</p>
+      <p>我的精灵</p>
       <table>
         <tr>
           <td>ID</td>
-          <td>Img</td>
-          <td>Name</td>
-          <td>Type</td>
-          <td>Moves</td>
-          <td>Btn</td>
+          <td>图片</td>
+          <td>名称</td>
+          <td>属性</td>
+          <td>技能</td>
+          <td>操作</td>
         </tr>
         <% mypokemon.forEach(function(item){
-            var cur = pokemonmap[item.key]
+            var cur = pokemonmap[item.key];
+
           %>
           <tr>
             <td><%=cur.id%></td>
             <td><img src='./data/imgs/<%=cur.id%>.png'></td>
-            <td><%=cur.name%></td>
-            <td><%=cur.types.join('<br />')%></td>
-            <td><%=item.moves.join('<br />')%></td>
+            <td><%=loader.pokemonZh[cur.name]%></td>
+            <td><%=cur.types.map(function(key){return loader.typeZh[key]}).join('<br />')%></td>
+            <td><%=item.moves.map(function(key){return loader.typeZh[key]}).join('<br />')%></td>
             <td>
-              <span class="btn" data-key='<%=item.key%>'>Del</span>
+              <span class="btn" data-key='<%=item.key%>'>删除</span>
             </td>
           </tr>
         <% }) %>
@@ -525,7 +527,7 @@
           if (e.target.classList.contains('btn')) {
             e.stopPropagation();
             var key = e.target.dataset.key;
-            if (confirm('Are you sure to delete ' + key + ' ?')) {
+            if (confirm('确定删除 ' + key + ' ?')) {
 
               for (var i = 0; i < loader.mypokemon.length; i++) {
                 if (loader.mypokemon[i].key === key) {
@@ -580,8 +582,7 @@
       #myPokemon img {
         height: 60px;
         width: 60px;
-        border: solid 1px #fff;
-        opacity: 0;
+
       }
       #myPokemon table {
         border-collapse: collapse;

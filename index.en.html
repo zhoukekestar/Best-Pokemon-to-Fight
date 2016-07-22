@@ -159,7 +159,6 @@
 
         <span class='btn add' onclick="addPokemon.show();">Add</span>
         <span class='btn local' onclick="myPokemon.show();">Local</span>
-        <a href="./index.zh.html" class="btn">中文版</a>
       </div>
     </form>
     <div id="result" class='result'></div>
@@ -169,7 +168,7 @@
   <script type='text/html' data-role='template' data-holder='#result' id='tmpl'>
     <div class='opponent'>
       <div class="name"><%=opponent.name%></div>
-      <img src="./data/imgs/<%=opponent.id%>.png" alt="">
+      <img src="./data/imgs1/<%=opponent.id%>.png" alt="">
       <ul>
         <% opponent.types.forEach(function(type){ %>
           <li><%=type%></li>
@@ -180,7 +179,7 @@
       <% list.forEach(function(li) { %>
         <li data-id='<%=li.currentPokemon.id%>'>
           <div class="pokemon">
-            <img class='lazy' data-src="./data/imgs/<%=li.currentPokemon.id%>.png" alt="">
+            <img class='lazy' data-src="./data/imgs1/<%=li.currentPokemon.id%>.png" alt="">
             <div class="name"><%=li.currentPokemon.name%></div>
             <ul>
               <% li.currentPokemon.types.forEach(function(type){ %>
@@ -302,7 +301,6 @@
       } else {
         toast('Please input something....')
       }
-      return null;
     }
 
   }
