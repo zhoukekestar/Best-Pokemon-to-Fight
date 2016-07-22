@@ -154,7 +154,7 @@
 
     <form data-role='formJSON'>
       <div class='form-group'>
-        <input list="datalistPokemon" name="opponent">
+        <input list="datalistPokemon" name="opponent" placeholder="输入名字或ID">
         <input class='go btn' type='submit' value='战斗'>
 
         <span class='btn add' onclick="addPokemon.show();">添加</span>
@@ -399,7 +399,7 @@
           loader.mypokemon.push(d);
 
           localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
-          toast('添加完成!')
+          toast('添加完成! 您可在【我的】里面查看自己的精灵')
           addPokemon.hide();
 
           setTimeout(function(){

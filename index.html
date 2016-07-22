@@ -154,11 +154,11 @@
 
     <form data-role='formJSON'>
       <div class='form-group'>
-        <input list="datalistPokemon" name="opponent">
+        <input list="datalistPokemon" name="opponent" placeholder="input name(or id)">
         <input class='go btn' type='submit' value='Go'>
 
         <span class='btn add' onclick="addPokemon.show();">Add</span>
-        <span class='btn local' onclick="myPokemon.show();">Local</span>
+        <span class='btn local' onclick="myPokemon.show();">Mine</span>
         <a href="./index.zh.html" class="btn">中文版</a>
       </div>
     </form>
@@ -399,7 +399,7 @@
           loader.mypokemon.push(d);
 
           localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
-          toast('Added!')
+          toast('Added! You can see your pokemon on [mine].')
           addPokemon.hide();
 
           setTimeout(function(){
