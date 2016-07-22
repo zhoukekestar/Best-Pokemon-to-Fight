@@ -59,6 +59,7 @@
       width: 60px;
       border: solid 1px rgba(204, 204, 204, 0.29);
       border-radius: 3px;
+
     }
     .result .opponent .name {
       text-align: center;
@@ -118,34 +119,56 @@
       background: #ee7140;
       color: #fff;
     }
+    .result td.bad {
+      background: rgba(204, 204, 204, 0.43);
+      color: #fff;
+    }
   </style>
 </head>
 <body>
-  <div id='loader' class='loader' data-count='4' style='display: none;'>
+  <!--
+    loader.mypokemon
+    loader.pokemonmap
+
+    loader.pokemonZh
+    loader.typeZh
+    loader.typeChart
+    loader.pokemon;
+  -->
+  <div id='loader' class='loader' data-count='4' style='display: none;' data-mypokemon='mypokemon'>
     <ul>
       <li data-src='./data/pokemon.zh.json' data-mount='pokemonZh'></li>
-      <li data-src='./data/types.zh.json' data-mount='typesZh'></li>
-      <li data-src='./data/types_chart.json' data-mount='typesChart' ></li>
+      <li data-src='./data/types.zh.json' data-mount='typeZh'></li>
+      <li data-src='./data/types_chart.json' data-mount='typeChart' ></li>
       <li data-src='./data/output.json' data-mount='pokemon' ></li>
     </ul>
   </div>
+
+  <!-- datalist -->
+  <datalist id='datalistPokemon'></datalist>
+  <datalist id='datalistType'></datalist>
+
+
+
   <div id='content' style='padding-top: 60px;'>
 
-    <form action="" method='GET'>
+    <form data-role='formJSON'>
       <div class='form-group'>
-        <input list="pokemon-datalist" name="">
-        <datalist id='pokemon-datalist'></datalist>
+        <input list="datalistPokemon" name="opponent">
         <input class='go btn' type='submit' value='Go'>
-        <input class='add btn' type="submit" value='Add'>
-        <a href='javascript:;' class='btn local' onclick="alert(localStorage.getItem('mypokemon'))">Local</a>
+
+        <span class='btn add' onclick="addPokemon.show();">Add</span>
+        <span class='btn local' onclick="myPokemon.show();">Local</span>
       </div>
     </form>
     <div id="result" class='result'></div>
   </div>
+
+
   <script type='text/html' data-role='template' data-holder='#result' id='tmpl'>
     <div class='opponent'>
       <div class="name"><%=opponent.name%></div>
-      <img src="./data/imgs/<%=opponent.id%>.png" alt="">
+      <img src="./data/imgs1/<%=opponent.id%>.png" alt="">
       <ul>
         <% opponent.types.forEach(function(type){ %>
           <li><%=type%></li>
@@ -156,7 +179,7 @@
       <% list.forEach(function(li) { %>
         <li data-id='<%=li.currentPokemon.id%>'>
           <div class="pokemon">
-            <img class='lazy' data-src="./data/imgs/<%=li.currentPokemon.id%>.png" alt="">
+            <img class='lazy' data-src="./data/imgs1/<%=li.currentPokemon.id%>.png" alt="">
             <div class="name"><%=li.currentPokemon.name%></div>
             <ul>
               <% li.currentPokemon.types.forEach(function(type){ %>
@@ -178,7 +201,7 @@
                         <td style="width: 30px;"><%=r.effect%></td>
                         <% if (index === 0) { %>
                           <td rowspan="<%=curType.reason.length%>"><%=curType.cpStr%></td>
-                          <td rowspan="<%=curType.reason.length%>" style="width: 50px; text-align: center;" class="<%=curType.cp >= 2 ? "great" : ""%>"><%=curType.cp%></td>
+                          <td rowspan="<%=curType.reason.length%>" style="width: 50px; text-align: center;" class="<%=curType.cp >= 2 ? "great" : ""%> <%=curType.cp <= 0.5 ? "bad" : ""%>"><%=curType.cp%></td>
                         <% } %>
                       </tr>
                     <% }) %>
@@ -210,39 +233,41 @@
       return 1;
     }
 
-    var bestPokemonToFight = function(pokemons, mypokemon, opponent, typesChart) {
+    var bestPokemonToFight = function(pokemonmap, mypokemon, opponent, typeChart) {
 
       var result = {};
 
-      var opponent = pokemons[(+opponent) - 1];
 
       result.opponent = opponent;
       result.list = [];
 
       for (var i = 0; i < mypokemon.length; i++) {
-        var currentPokemon = pokemons[(+mypokemon[i]) - 1];
+
+        var currentPokemon = pokemonmap[mypokemon[i].key];
+        currentPokemon.moves = mypokemon[i].moves;
+
         var currentResult = {
           currentPokemon: currentPokemon,
           detail: []
         }
 
-        for (var k = 0; k < currentPokemon.types.length; k++) {
+        for (var k = 0; k < currentPokemon.moves.length; k++) {
 
           var cp = 1
             , cpStr = ''
             , reason = [];
 
           for (var j = 0; j < opponent.types.length; j++) {
-            var t = type2type(currentPokemon.types[k], opponent.types[j], typesChart)
+            var t = type2type(currentPokemon.moves[k], opponent.types[j], typeChart)
 
             cp *= t;
             cpStr += (cpStr === '' ? t : ' * ' + t);
 
-            reason.push({myType: currentPokemon.types[k], opType: opponent.types[j], effect: t})
+            reason.push({myType: currentPokemon.moves[k], opType: opponent.types[j], effect: t})
           }
 
           currentResult.detail.push({
-            type: currentPokemon.types[k],
+            type: currentPokemon.moves[k],
             cp: cp,
             cpStr: cpStr,
             reason: reason
@@ -258,48 +283,15 @@
 
   loader.onended = function() {
 
-    // Init datalist
-    !(function(){
-
-      var datalist_en = ''
-        , datalist_zh = '';
-
-      for (var i = 0, len = loader.pokemon.length; i < len; i++) {
-        datalist_en += '<option>' + loader.pokemon[i].name + '</option>';
-
-        loader.pokemon[i].nameZh = loader.pokemonZh[loader.pokemon[i].name];
-        datalist_zh += '<option>' + loader.pokemon[i].nameZh + '</option>';
-      }
-
-      document.querySelector('#pokemon-datalist').innerHTML = datalist_en + datalist_zh;
-      loader.mypokemon = JSON.parse(localStorage.getItem('mypokemon') || '["1", "5", "9", "11"]');
-    })();
-
-    // Define output function.
-    var res = '';
-    var output = function(msg) {
-      res += msg + '<br />';
-    }
-
     // Go button
-    document.querySelector('#content form').onsubmit = function(e) {
-      e.preventDefault();
+    document.querySelector('#content form')._data = function(d) {
 
-      var key = document.querySelector('#content input').value;
 
-      if (key) {
-        var isIDFound = false;
-        for (var i = 0, len = loader.pokemon.length; i < len; i++) {
-          var t = loader.pokemon[i];
-          if (t.name === key || t.nameZh === key || t.id === key) {
-            key = t.id;
-            isIDFound = true;
-            break;
-          }
-        }
+      if (d.opponent) {
+        opponent = loader.pokemonmap[d.opponent]
 
-        if (isIDFound) {
-          var result = bestPokemonToFight(loader.pokemon, loader.mypokemon, key, loader.typesChart, loader.typesZh)
+        if (opponent) {
+          var result = bestPokemonToFight(loader.pokemonmap, loader.mypokemon, opponent, loader.typeChart)
           tmpl._updateBy(result)
 		      document.dispatchEvent(new Event('lazyload-reload'));
           console.log(result)
@@ -310,86 +302,14 @@
         toast('Please input something....')
       }
     }
-    document.querySelector('#content form .add').onclick = function(e) {
-      e.preventDefault();
 
-      var key = document.querySelector('#content input').value;
-
-      if (key) {
-        var isIDFound = false;
-        for (var i = 0, len = loader.pokemon.length; i < len; i++) {
-          var t = loader.pokemon[i];
-          if (t.name === key || t.nameZh === key || t.id === key) {
-            key = t.id;
-            isIDFound = true;
-            break;
-          }
-        }
-
-        if (isIDFound) {
-
-          loader.mypokemon.push(key)
-          toast('Add ' + loader.pokemon[+key - 1].name + ' to my pokemon successfully.')
-          localStorage.setItem('mypokemon', JSON.stringify(loader.mypokemon));
-
-          console.log('add ' + key)
-        } else {
-          alert('Not Found')
-        }
-      }
-
-
-    }
   }
 
   </script>
-  <script>
-    // Init: load all json.
-    !(function(){
-      var loader = document.querySelector('#loader');
 
-      loader.count = 0;
-      var loadIt = function(ele) {
 
-        if (localStorage.getItem(ele.dataset.src)) {
-
-          ele.json = JSON.parse(localStorage.getItem(ele.dataset.src));
-
-          loader.count++;
-          loader[ele.dataset.mount] = ele.json;
-          ele.classList.add('done');
-          ;(loader.count == loader.dataset.count) && loader.onended && loader.onended();
-
-        } else {
-
-          var xhr = new XMLHttpRequest();
-          xhr.open("GET", ele.dataset.src, true);
-          xhr.setRequestHeader('Content-Type', 'application/json');
-          xhr.onreadystatechange = function(){
-
-            if (xhr.readyState === 4) {
-              localStorage.setItem(ele.dataset.src, xhr.response);
-              ele.json = JSON.parse(xhr.response);
-
-              loader.count++;
-              loader[ele.dataset.mount] = ele.json;
-              ele.classList.add('done');
-              ;(loader.count == loader.dataset.count) && loader.onended && loader.onended();
-            }
-
-          }
-          xhr.send(null);
-        }
-      }
-
-      var lis = document.querySelectorAll('#loader ul li');
-      for (var i = 0; i < lis.length; i++) {
-        loadIt(lis[i])
-      }
-
-    })();
-  </script>
-  <script src='./lib/lazyload.template.toast.js'></script>
+  <!-- lib refs -->
+  <script src='./lib/lazyload.template.toast.formJSON.js'></script>
   <!-- <script src='./lib/template.js'></script>
   <script src='./lib/lazyload.js'></script>
   <script src='./lib/toast.js'></script>
@@ -418,5 +338,356 @@
 	  line-height: 1.3em;
 	}
   </style>
+
+
+
+  <!-- Add pokemon panel -->
+  <div id="addPokemon">
+    <form data-role='formJSON'>
+      <input list='datalistPokemon' name='key' placeholder="pokemon" style='width: 220px;'>
+      <ul class="moves">
+        <li>
+          <input list='datalistType' name='moves.' placeholder="moves type">
+          <span class="btn" onclick="this.parentNode.remove()">Del</span>
+        </li>
+      </ul>
+      <a href="javascript:;" class='btn cancel'>Cancel</a>
+      <a href="javascript:;" class="btn add-moves">Add moves</a>
+      <input class='btn' type="submit" value='Done' style='    width: 85px;'>
+    </form>
+
+    <script>
+      !(function(){
+        loader.mypokemon = JSON.parse(localStorage.getItem(loader.dataset.mypokemon) || '[{"key":"pikachu","moves":["normal","electric"]}]')
+        localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
+
+        var form = addPokemon.querySelector('form');
+        form._innerHTML = form.innerHTML;
+
+        addPokemon.onclick = function(e) {
+
+          if (e.target.classList.contains('add-moves')) {
+
+            var li = document.createElement('li');
+            li.innerHTML = '<input list="datalistType" name="moves." placeholder="moves type"><span class="btn" onclick="this.parentNode.remove()">Del</span>'
+            addPokemon.querySelector('.moves').appendChild(li)
+
+          } else if (e.target.classList.contains('cancel')) {
+
+            addPokemon.hide();
+            setTimeout(function(){
+              form.innerHTML = form._innerHTML;
+            }, 500)
+
+          }
+        }
+
+        form._data = function(d) {
+
+          // Chinese to English
+          var m = [];
+          for (var i = 0; i < d.moves.length; i++) {
+            if (d.moves[i].charCodeAt(0) > 255) {
+              m.push(loader.typeZh[d.moves[i]]);
+            } else {
+              m.push(d.moves[i]);
+            }
+          }
+          d.moves = m;
+          loader.mypokemon.push(d);
+
+          localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
+          toast('Added!')
+          addPokemon.hide();
+
+          setTimeout(function(){
+            form.innerHTML = form._innerHTML;
+          }, 500)
+
+          return null;
+        }
+        addPokemon.show = function() {
+          addPokemon.style.display = 'block';
+          setTimeout(function(){
+            addPokemon.classList.add('show')
+          }, 0)
+        }
+        addPokemon.hide = function() {
+          addPokemon.classList.remove('show')
+          setTimeout(function(){
+            addPokemon.style.display = 'none';
+          }, 500)
+        }
+      })();
+    </script>
+    <style>
+      #addPokemon {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        opacity: 0;
+        transition: all .5s;
+        display: none;
+      }
+      #addPokemon.show {
+        opacity: 1;
+      }
+      #addPokemon.show form {
+        top: 0;
+      }
+      #addPokemon form {
+        width: 313px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: -100%;
+        transition: all .5s;
+      }
+      #addPokemon ul {
+        list-style: none;
+        padding: 0;
+      }
+      #addPokemon ul li {
+        font-size: 0;
+        margin-bottom: 10px;
+      }
+      #addPokemon ul li input {
+
+      }
+      #addPokemon ul li span {
+        margin-left: 5px;
+        vertical-align: 5%;
+      }
+      #addPokemon .btn {
+
+      }
+    </style>
+  </div>
+
+
+  <div id="myPokemon" onclick='this.hide()'>
+    <div class="container"></div>
+    <script type='text/html' data-role='template' id='tmpl-my-pokemon' data-holder='#myPokemon .container'>
+      <p>My Pokemon</p>
+      <table>
+        <tr>
+          <td>ID</td>
+          <td>Img</td>
+          <td>Name</td>
+          <td>Type</td>
+          <td>Moves</td>
+          <td>Btn</td>
+        </tr>
+        <% mypokemon.forEach(function(item){
+            var cur = pokemonmap[item.key]
+          %>
+          <tr>
+            <td><%=cur.id%></td>
+            <td><img src='./data/imgs/<%=cur.id%>.png'></td>
+            <td><%=cur.name%></td>
+            <td><%=cur.types.join('<br />')%></td>
+            <td><%=item.moves.join('<br />')%></td>
+            <td>
+              <span class="btn" data-key='<%=item.key%>'>Del</span>
+            </td>
+          </tr>
+        <% }) %>
+      </table>
+
+    </script>
+    <script>
+      !(function(){
+        var tmpl = document.querySelector('#tmpl-my-pokemon')
+        myPokemon.show = function() {
+          myPokemon.style.display = 'block';
+          tmpl._updateBy({mypokemon: loader.mypokemon, pokemonmap: loader.pokemonmap})
+          setTimeout(function(){
+            myPokemon.classList.add('show')
+          }, 0)
+        }
+        myPokemon.hide = function() {
+          myPokemon.classList.remove('show')
+          setTimeout(function(){
+            myPokemon.style.display = 'none';
+          }, 500)
+        }
+        myPokemon.querySelector('.container').onclick = function(e) {
+          if (e.target.classList.contains('btn')) {
+            e.stopPropagation();
+            var key = e.target.dataset.key;
+            if (confirm('Are you sure to delete ' + key + ' ?')) {
+
+              for (var i = 0; i < loader.mypokemon.length; i++) {
+                if (loader.mypokemon[i].key === key) {
+                  loader.mypokemon.splice(i, 1)
+                  break;
+                }
+              }
+              e.target.parentNode.parentNode.remove();
+              localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
+              console.log(e.target.dataset.key)
+            }
+          }
+        }
+      })();
+    </script>
+    <style>
+      #myPokemon {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        opacity: 0;
+        transition: all .5s;
+        display: none;
+      }
+      #myPokemon.show {
+        opacity: 1;
+      }
+      #myPokemon.show form {
+        top: 0;
+      }
+      #myPokemon form {
+        width: 313px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: -100%;
+        transition: all .5s;
+      }
+      #myPokemon .container {
+
+        text-align: center;
+        color: #fff;
+      }
+      #myPokemon img {
+        height: 60px;
+        width: 60px;
+        border: solid 1px #fff;
+        opacity: 0;
+      }
+      #myPokemon table {
+        border-collapse: collapse;
+        display: inline-block;
+      }
+      #myPokemon table td {
+        border: solid 1px #fff;
+        padding: 5px;
+      }
+      #myPokemon table .btn {
+        border: solid 1px #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        cursor: pointer;
+      }
+      #myPokemon table .btn:hover {
+        background: #fff;
+        color: #1a1a1a;
+      }
+    </style>
+  </div>
+
+  <!-- ------------------------------------------------------ init script ---------------------------------------------- -->
+  <script>
+    // Init: load all json.
+    !(function(){
+
+      var loader = document.querySelector('#loader');
+      loader.count = 0;
+
+      // load finished
+      var loadFinished = function(ele) {
+        loader.count++;
+        loader[ele.dataset.mount] = ele.json;
+        ele.classList.add('done');
+
+        // All files loaded.
+        if (loader.count == loader.dataset.count) {
+
+          var datalistPokemon = ''
+            , datalistType = '';
+
+          // Init datalistPokemon
+          loader.pokemonmap = {};
+          for (var i = 0, len = loader.pokemon.length; i < len; i++) {
+            datalistPokemon += '<option>' + loader.pokemon[i].name + '</option>' + '<option>' + loader.pokemonZh[loader.pokemon[i].name] + '</option>';
+
+            loader.pokemonmap[loader.pokemon[i].id] = loader.pokemon[i];
+            loader.pokemonmap[loader.pokemon[i].name] = loader.pokemon[i];
+            loader.pokemonmap[loader.pokemonZh[loader.pokemon[i].name]] = loader.pokemon[i];
+          }
+
+          // Init datalistType
+          for (var i in loader.typeZh) {
+            datalistType += '<option>' + i + '</option>' + '<option>' + loader.typeZh[i] + '</option>';
+            loader.typeZh[loader.typeZh[i]] = i;
+          }
+
+          //
+          document.querySelector('#datalistPokemon').innerHTML = datalistPokemon;
+          document.querySelector('#datalistType').innerHTML = datalistType;
+
+
+          // Init my pokemon
+          loader.mypokemon = JSON.parse(localStorage.getItem(loader.dataset.mypokemon));
+          localStorage.setItem(loader.dataset.mypokemon, JSON.stringify(loader.mypokemon));
+
+
+          ;loader.onended && loader.onended();
+        }
+
+      }
+
+      var loadIt = function(ele) {
+
+        if (localStorage.getItem(ele.dataset.src)) {
+
+          ele.json = JSON.parse(localStorage.getItem(ele.dataset.src));
+
+          loadFinished(ele)
+
+        } else {
+
+          var xhr = new XMLHttpRequest();
+          xhr.open("GET", ele.dataset.src, true);
+          xhr.setRequestHeader('Content-Type', 'application/json');
+          xhr.onreadystatechange = function(){
+
+            if (xhr.readyState === 4) {
+              localStorage.setItem(ele.dataset.src, xhr.response);
+              ele.json = JSON.parse(xhr.response);
+
+              loadFinished(ele);
+            }
+
+          }
+          xhr.send(null);
+        }
+      }
+
+      // Load all src under #loader element
+      var lis = document.querySelectorAll('#loader ul li');
+      for (var i = 0; i < lis.length; i++) {
+        loadIt(lis[i])
+      }
+
+    })();
+  </script>
+
 </body>
 </html>
